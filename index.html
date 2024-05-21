@@ -10,15 +10,25 @@
 
 <body>
     <nav class="navbar">
+        <div>
+            <div class="menu-icon" id="menu-icon">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
 
-        <img src="imgs/logo.png" />
-        <a alt="/research">Research</a>
-        <a alt="/research">Research Group</a>
-        <a alt="/research">Publications</a>
-        <a alt="/research">Presentations</a>
-        <a alt="/research">Courses</a>
-        <a alt="/research">Awards</a>
-        <a alt="/research">News</a>
+            <img src="imgs/logo.png" />
+            <li class="navlinks" id="navlinks">
+                <a alt="/research">Research</a>
+                <a alt="/research">Research Group</a>
+                <a alt="/research">Publications</a>
+                <a alt="/research">Presentations</a>
+                <a alt="/research">Courses</a>
+                <a alt="/research">Awards</a>
+                <a alt="/research">News</a>
+            </li>
+
+        </div>
     </nav>
 
     <div class="index-parent">
@@ -28,8 +38,7 @@
                 with the vision to enable getting as close to the truth as one <b>intends</b>, with the <b>least</b>
                 effort!
             </p>
-
-            <div>
+            <div class="hero-imgs">
                 <img src="imgs/hero1.png" />
                 <img src="imgs/hero2.png" />
                 <img src="imgs/hero3.png" />
@@ -38,8 +47,7 @@
         </div>
 
 
-        <div class="enablers">
-
+        <div class="missions">
             <div>
                 <h2>Research Missions</h2>
                 <ul>
@@ -48,11 +56,77 @@
                     <li>Improved analysis and design techniques for current and futuristic application</li>
                 </ul>
             </div>
+        </div>
+
+        <img src="imgs/ellipse.svg" class="bg-ellipse" />
+
+
+        <div class="enablers">
+            <div>
+                <h2>Enablers</h2>
+                <ul>
+                    <p>State-of-the-art mathematical approaches:</p>
+                    <li>Variational Asymptotic Method</li>
+                    <li>Non-Deterministic Techniques</li>
+                    <li>Concurrent Multi-scale Modeling</li>
+                    <li>Nonlinear Domain Decomposition</li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+        <div class="news">
+            <div>
+                <h2>In the News</h2>
+                <div class="carousal">
+                    <div class="slide">
+                        <img src="imgs/hero1.png" style="width:100%">
+                        <p class="text">MultiFun: Finalist for Future Material Awards -  2015, organised by WTIN, in the category "Best Innovation - Sustainable  Textiles"</p>
+                    </div>
+
+                    <div class="slide">
+                        <img src="imgs/hero2.png" style="width:100%">
+                        <p class="text">Caption 2</p>
+                    </div>
+
+                    <div class="slide">
+                        <img src="imgs/hero3.png" style="width:100%">
+                        <p class="text">Caption 3</p>
+                    </div>
+                </div>
+
+                <div class="carousal-btns">
+                    <img src="/imgs/arrow.svg" onclick="updateSlide(1)" style="transform: rotate(180deg);" />
+                    <img src="/imgs/arrow.svg" onclick="updateSlide(-1)" />
+                </div>
+            </div>
 
         </div>
+
+        <img src="imgs/comets.svg" class="bg-comets" />
+
+
+        <div class="contact">
+            <div>
+                <h2>Contact</h2>
+                <p><span>Email: </span>dineshkumar (at) iisc (dot) ac (dot) in</p>
+                <p><span>Ph: </span>+91-80-2293-3032 </p>
+                <p><span>Ph: </span>+91-80-2293-3097 </p>
+                <p><span>Fax: </span> +91-80-2360-0134 </p>
+            </div>
+        </div>
+
+
     </div>
 
 
+    <footer class="footer">
+        <p>Nonlinear Multifunctional Composites - Analysis & Design (NMCAD) Lab, Dept. of Aerospace Engg., IISc,
+            beṅgalūrū, karnāṭakā, bhārat 560 012</p>
+    </footer>
+    <script src="scripts/main.js"></script>
 
 </body>
 

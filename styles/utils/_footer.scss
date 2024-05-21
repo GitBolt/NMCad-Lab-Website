@@ -1,0 +1,14 @@
+.footer {
+    background: $navBg;
+    color: $primaryText;
+    font-size: 1.8rem;
+    position: static;
+    bottom: 0;
+    width: 100vw;
+    border-top: 1px solid $gray2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    padding: 3rem 2rem;
+}
