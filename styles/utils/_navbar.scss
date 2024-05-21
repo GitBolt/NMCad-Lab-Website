@@ -1,0 +1,10 @@
+nav {
+    background-color: $navBg;
+    border-bottom: 1px solid $gray2;
+    @include flex_center;
+    height: 9rem;
+    font-size: 1.8rem;
+    justify-content: space-between;
+    padding: 0px 40rem;
+    font-weight: 400;
+}

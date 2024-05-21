@@ -1,0 +1,45 @@
+@import "_variables";
+@import "_mixins";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: $bg;
+  overflow-x: hidden;
+  font-size: 62.5%;
+  @include default_font;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  color: $gray1;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input,
+button {
+  outline: none;
+}
+
+h1 {
+  color: white;
+}
+
+a,
+button,
+img,
+div {
+  -webkit-tap-highlight-color: transparent;
+}

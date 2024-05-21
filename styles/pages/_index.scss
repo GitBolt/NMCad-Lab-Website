@@ -1,0 +1,73 @@
+.index-parent {
+    @include flex_center;
+    flex-flow: column;
+    gap: 5rem;
+}
+
+.hero {
+    font-size: 6rem;
+    margin-top: 3rem;
+    gap: 1rem;
+    max-width: 50%;
+    text-align: center;
+
+    >p {
+        margin-top: 1rem;
+        text-align: center;
+        color: $primaryText;
+        font-size: 3.2rem;
+
+        >span {
+            color: $blue1;
+        }
+
+        >b {
+            font-weight: 700;
+        }
+
+        >b:last-child {
+            text-decoration: underline;
+        }
+    }
+
+    >div {
+        @include flex_center;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    >.prof {
+        font-size: 2.5rem;
+        color: $blue1;
+
+        >span {
+            font-weight: 800;
+            color: $gray1;
+        }
+    }
+}
+
+.enablers {
+
+    @include flex_center;
+    @include linear_gradient_bg;
+    width: 100%;
+
+    >div {
+        max-width: 60%;
+        flex-flow: column;
+        padding: 4rem 6rem;
+        >h2 {
+            text-align: start;
+            font-size: 4.8rem;
+            color: white;
+        }
+
+        >ul li {
+            line-height: 5rem;
+            font-size: 2.8rem;
+            color: $primaryText;
+        }
+    }
+
+}
