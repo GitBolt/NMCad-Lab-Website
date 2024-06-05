@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 html,
 body {
@@ -411,4 +412,111 @@ div {
   position: absolute;
   bottom: -175%;
   right: 10%;
+}
+
+.publication-main {
+  margin-top: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  gap: 5rem;
+  margin-top: 12rem;
+  min-height: 80vh;
+  margin-bottom: 5rem;
+}
+.publication-main > h1 {
+  font-size: 5rem;
+}
+.publication-main > div {
+  gap: 1rem;
+  text-align: center;
+  width: 85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.accordion {
+  width: 85rem;
+  background: #1A1A24;
+  border: 1px solid #2d2f47;
+  border-radius: 1.5rem;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  transition: 0.4s;
+}
+
+.accordion:hover {
+  background-color: #3c3c4e;
+}
+
+.accordion:after {
+  content: "↑";
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "↓";
+  color: white;
+}
+
+.panel {
+  width: 100%;
+  font-size: 2rem;
+  border: 1px solid #464A73;
+  border-top: none;
+  border-radius: 0 0 1.5rem 1.5rem;
+  background-color: #1A1A24;
+  transform: translate(0, -20px);
+  display: none;
+  overflow: hidden;
+  padding: 2rem;
+  flex-flow: column;
+  gap: 1.2rem;
+}
+.panel .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: start;
+  gap: 1rem;
+}
+.panel .links > a {
+  color: #3EAEFF;
+}
+.panel .pdf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  justify-content: space-between;
+  width: 100%;
+}
+.panel .pdf div {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.panel .pdf div > p {
+  color: white;
+}
+.panel .pdf > button {
+  background: transparent;
+  border: 1px solid #7CA9FF;
+  outline: none;
+  font-size: 1.8rem;
+  color: #7CA9FF;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 0.7rem;
 }/*# sourceMappingURL=main.css.map */
