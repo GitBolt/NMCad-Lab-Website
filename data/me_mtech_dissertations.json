@@ -1,0 +1,345 @@
+[
+    {
+        "title": "Analysis of Filament-Wound Composite Helical Springs",
+        "person": "Vasudev Kumar Atukuri",
+        "type": "ME",
+        "date": "Jan 2001",
+        "currently": ""
+    },
+    {
+        "title": "Vibration Characteristics of SMA Composite with Different BCs using FEM",
+        "person": "J. Siri Kiran",
+        "type": "MTech",
+        "date": "Jun 2004",
+        "currently": ""
+    },
+    {
+        "title": "Modeling of Static Indentation on Laminated Composite Shells",
+        "person": "Kaustav Mitra",
+        "type": "MTech",
+        "date": "Jun 2004",
+        "currently": "Airbus Hamburg Germany; MBA, London School of Economics; Currently at Goldman Sachs"
+    },
+    {
+        "title": "Asymptotic Analyses of Smart Anisotropic Strips & Drive Shafts",
+        "person": "Ajay Kumar Tamrakar",
+        "type": "MTech",
+        "date": "Jun 2004",
+        "currently": "Currently Senior Divisional Manager, bhāratīya Railways"
+    },
+    {
+        "title": "Modeling of External Composite Patch Repairs of Laminates using VAM",
+        "person": "H. Sreedhara",
+        "type": "ME",
+        "date": "Jul 2005",
+        "currently": "Currently Senior Scientist, National Aerospace Laboratories (NAL), bhārat"
+    },
+    {
+        "title": "Studies on MFC as Delamination Sensor & Snap-through Actuator",
+        "person": "S. Hari Krishna",
+        "type": "ME",
+        "date": "Jul 2005",
+        "currently": "Currently Senior Scientist, Indian Space Research Organisation (ISRO), bhārat"
+    },
+    {
+        "title": "Matrix Cracking in Brittle Matrix Composites",
+        "person": "V. Viswanath",
+        "type": "ME",
+        "date": "Jul 2005",
+        "currently": "Currently Senior Scientist, Indian Space Research Organisation (ISRO), bhārat"
+    },
+    {
+        "title": "Hygrothermal Analysis of Laminated Composite Shell using VAM",
+        "person": "B. Srinivasulu",
+        "type": "ME",
+        "date": "Jul 2005",
+        "currently": ""
+    },
+    {
+        "title": "Generalized Deflection Control of Flexible Beam using SMA Wires",
+        "person": "Amit Kaushal",
+        "type": "MTech",
+        "date": "Jul 2005",
+        "currently": ""
+    },
+    {
+        "title": "Compressive Stiffness of Composite Circular Springs with Extended Flat Contact Surfaces",
+        "person": "Bijudas C.R.",
+        "type": "ME",
+        "date": "Jul 2006",
+        "currently": "PhD, IIT Bombay; Currently Faculty Member, Indian Institute of Space Technology (IIST), bhārat"
+    },
+    {
+        "title": "Probabilistic Modeling of Delamination",
+        "person": "Suryakiran",
+        "type": "ME",
+        "date": "Jun 2006",
+        "currently": "Currently Senior Scientist, Defence Research & Development Organisation (DRDO), bhārat"
+    },
+    {
+        "title": "Effect of Internal Pressure on Non-linear Bending & Local Buckling of Long Anisotropic Tubes",
+        "person": "Shivaprasad",
+        "type": "ME",
+        "date": "Jul 2006",
+        "currently": "Senior Engineer, Airbus bhārat"
+    },
+    {
+        "title": "An Asymptotic Approach for Thermoelastic Analysis of Laminated Composite Shells with Uncertain Material Parameters",
+        "person": "Jagadeesh Gowda",
+        "type": "MTech",
+        "date": "Jul 2006",
+        "currently": ""
+    },
+    {
+        "title": "Variational Asymptotic Simulation of a Self-healing SMA Composite",
+        "person": "A.K. Sharma",
+        "type": "MTech",
+        "date": "Jun 2007",
+        "currently": "Currently Senior Scientist, Indian Space Research Organisation (ISRO), bhārat"
+    },
+    {
+        "title": "Specialized vs Multi-Role Fighter Aircraft Performance & Functional Agility Metric Comparison in the Conceptual Design Phase",
+        "person": "R.V. Ravikumar",
+        "type": "ME",
+        "date": "Jun 2007",
+        "currently": "Currently Senior Scientist, Defence Research & Development Organisation (DRDO), bhārat"
+    },
+    {
+        "title": "Energy Harvesting Performances of Unimorph Piezoelectric & MFC Composite Beams",
+        "person": "Pramod B. Balareddy",
+        "type": "ME",
+        "date": "Jun 2010",
+        "currently": "Currently Senior Scientist, Indian Space Research Organisation (ISRO), bhārat"
+    },
+    {
+        "title": "Stiffened Composite Plate Analysis using Variational Asymptotic Method",
+        "person": "Banker Manisha Mayankbhai",
+        "type": "ME",
+        "date": "Jun 2011",
+        "currently": "Currently Senior Scientist, National Aerospace Laboratories (NAL), bhārat"
+    },
+    {
+        "title": "Modeling of Piezo-composite Actuators with Application to Self-Actuating Flapping Wing MAV",
+        "person": "Sathiskumar Anusuya Ponnusami",
+        "type": "ME",
+        "date": "Jun 2011",
+        "currently": "PhD (TU Delft), The Netherlands; Post-Doctoral Fellow, Oxford University, UK; Currently Lecturer, City, University of London, UK"
+    },
+    {
+        "title": "Particle Swarm Optimization of Composite I-Beam Sections",
+        "person": "Satish G. Kumar",
+        "type": "ME",
+        "date": "Jun 2011",
+        "currently": "Engineer, GE India; Project Associate, NMCAD Lab; Rolls-Royce bhārat"
+    },
+    {
+        "title": "Modeling Camber Morphing Fixed Wing for MAVs using PFRC",
+        "person": "Krishan Kumar",
+        "type": "ME",
+        "date": "Jun 2012",
+        "currently": "Currently Senior Scientist, Indian Space Research Organisation (ISRO), bhārat"
+    },
+    {
+        "title": "Delamination Sensitivity of Composite Beam Dynamics",
+        "person": "Gottimukkula Venkatesh",
+        "type": "ME",
+        "date": "Jun 2012",
+        "currently": ""
+    },
+    {
+        "title": "3-D FEA & Analytical Timoshenko-like yet Asymptotic Modeling of Tapered Composite Beams",
+        "person": "Atul Kumar",
+        "type": "ME",
+        "date": "Jun 2012",
+        "currently": "Currently Senior Scientist, Indian Space Research Organisation (ISRO), bhārat"
+    },
+    {
+        "title": "Variational Asymptotic Modeling of an Initially Curved & Pre-twisted Smart Beam",
+        "person": "Valliappan Vijay",
+        "type": "ME",
+        "date": "Jun 2013",
+        "currently": "Currently PhD student, TU Eindhoven, The Netherlands"
+    },
+    {
+        "title": "Analysis of Composite Sandwich Plate with Angle Brackets",
+        "person": "Archana Shukla",
+        "type": "ME",
+        "date": "Jun 2013",
+        "currently": "Currently Senior Scientist, Indian Space Research Organisation (ISRO), bhārat"
+    },
+    {
+        "title": "Flex-seal Modeling",
+        "person": "Arun Krishnan",
+        "type": "ME",
+        "date": "Jun 2014",
+        "currently": "Currently Senior Scientist, Indian Space Research Organisation (ISRO), bhārat"
+    },
+    {
+        "title": "Ballonet Modeling for HAA",
+        "person": "Arun Jose",
+        "type": "ME",
+        "date": "Jun 2014",
+        "currently": "Currently Senior Scientist, Indian Space Research Organisation (ISRO), bhārat"
+    },
+    {
+        "title": "Envelope Modeling for HAA",
+        "person": "Late Prabhakaran J. K.",
+        "type": "ME",
+        "date": "Jun 2015",
+        "currently": "expired: Apr 2014"
+    },
+    {
+        "title": "Asymptotic Modeling of Delamination Initiation in Arbitrarily-Oriented Composite Laminate",
+        "person": "Shiv Harsh Pothula",
+        "type": "ME",
+        "date": "Jun 2015",
+        "currently": "Currently Engineer, GE bhārat"
+    },
+    {
+        "title": "Computational Modeling of Resin Flow during Composite Manufacturing Process using VAM",
+        "person": "Jobin Kolliyil Joy",
+        "type": "ME",
+        "date": "Jun 2015",
+        "currently": "Currently PhD student, Texas A&M University (TAMU), USA"
+    },
+    {
+        "title": "Micro-Electro-Mechanics of Piezo-Ceramic Fiber Composites",
+        "person": "Ganesh S.",
+        "type": "ME",
+        "date": "Jun 2015",
+        "currently": "Currently Scientist, Centre for Airborne Systems (CABS), Defence Research & Development Organisation (DRDO), bhārat"
+    },
+    {
+        "title": "Micro-Mechanical Modelling of Woven Fabric Composite using Variational Asymptotic Method (VAM)",
+        "person": "Midhun A. J.",
+        "type": "ME",
+        "date": "Jun 2016",
+        "currently": "Currently Senior Scientist, Indian Space Research Organisation (ISRO), bhārat"
+    },
+    {
+        "title": "A Computational Study of the Micro-Mechanics of & Radial Matrix Cracks in Metal Matrix Composite RVE based on an Asymptotically-correct Analysis",
+        "person": "Sachin Chandra Shrivastava",
+        "type": "ME",
+        "date": "Jun 2016",
+        "currently": "Currently Engineer, Rolls-Royce, bhārat"
+    },
+    {
+        "title": "Computational Study of the Impact Mechanics of Dry Aramid Fabrics & their Composite Shells",
+        "person": "Kondamadugula Lakshmi Bharath Reddy",
+        "type": "ME",
+        "date": "Jun 2017",
+        "currently": ""
+    },
+    {
+        "title": "Hybrid Metal-Composite Containment Design",
+        "person": "Mohamed Neyaz",
+        "type": "ME",
+        "date": "Jun 2017",
+        "currently": ""
+    },
+    {
+        "title": "Bullet-Proof Battery Composite Combat Vest Design",
+        "person": "Sasidharan Sandeep",
+        "type": "ME",
+        "date": "Jun 2017",
+        "currently": ""
+    },
+    {
+        "title": "Fourier Transform-based Semi-Analytical Asymptotically-Correct Solutions to MMC Beam Cross-Sectional Analysis",
+        "person": "Abhay Gupta",
+        "type": "ME",
+        "date": "Jun 2017",
+        "currently": "Currently Engineer, Rolls-Royce, bhārat"
+    },
+    {
+        "title": "Application of Variational Asymptotic Micromechanical Method to Strength Analysis of Composite Materials",
+        "person": "Dileep Kumar",
+        "type": "ME",
+        "date": "Jun 2018",
+        "currently": "Currently Engineer, iGenie, bhārat"
+    },
+    {
+        "title": "Woven Composite Shells: A Concurrent Multi-scale Analysis",
+        "person": "Shraddha Chandrasekaran",
+        "type": "ME",
+        "date": "Jun 2018",
+        "currently": "Currently Engineer, Rolls-Royce, bhārat"
+    },
+    {
+        "title": "Novel multifunctional materials for airship envelops & ballonets with development of a comprehensive tool for their analysis & design optimization",
+        "person": "Sangheetha B",
+        "type": "MTech",
+        "date": "Jun 2019",
+        "currently": "Currently Scientist ‘B,’ ADRDE Agra, DRDO, bhārat."
+    },
+    {
+        "title": "Design of a Composite Helicopter Skid Landing Gear",
+        "person": "Anubhav Singh",
+        "type": "MTech",
+        "date": "Jun 2019",
+        "currently": "currently PhD student, IISc, bhārat."
+    },
+    {
+        "title": "Design, Analysis & Variational Asymptotic Modelling of iso-grid stiffened cylindrical section of composite propellant tank in GSLV MkIII",
+        "person": "Anoop Chellath",
+        "type": "MTech",
+        "date": "Jun 2020",
+        "currently": "Currently Scientist, LPSC, ISRO, Thiruvananthapuram, bhārat."
+    },
+    {
+        "title": "Design, Analysis & Variational Asymptotic Modeling of Y-Joint & Spherical dome of composite propellant tank",
+        "person": "Manimozhi M.",
+        "type": "MTech",
+        "date": "Jun 2020",
+        "currently": ""
+    },
+    {
+        "title": "Vibro-acoustic behaviour of 3-D auxetic structures",
+        "person": "Madan Mohan Mehra",
+        "type": "MTech",
+        "date": "Jun 2021",
+        "currently": "Currently Scientist, URSC, ISRO, Bengaluru, bhārat."
+    },
+    {
+        "title": "Vibro-acoustic behavior of MEE composite structures",
+        "person": "Chinta Varun Sai Reddy",
+        "type": "MTech",
+        "date": "Jun 2021",
+        "currently": ""
+    },
+    {
+        "title": "Auxetic metamaterials: Asymptotically-Correct Analysis",
+        "person": "Chetna Srivastava",
+        "type": "MTech",
+        "date": "Jun 2022",
+        "currently": ""
+    },
+    {
+        "title": "Anticipated",
+        "person": "Abhishekaran Karapurath",
+        "type": "MTech",
+        "date": "Jun 2023",
+        "currently": ""
+    },
+    {
+        "title": "Anticipated",
+        "person": "Prateik Sabyasachi",
+        "type": "MTech",
+        "date": "Jun 2023",
+        "currently": ""
+    },
+    {
+        "title": "Anticipated",
+        "person": "Prasant Kumar Sahay",
+        "type": "MTech",
+        "date": "Jun 2023",
+        "currently": ""
+    },
+    {
+        "title": "Anticipated",
+        "person": "Krishna Kant Kishore",
+        "type": "MTech",
+        "date": "Jun 2024",
+        "currently": ""
+    }
+]

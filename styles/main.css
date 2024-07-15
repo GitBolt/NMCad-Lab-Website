@@ -415,41 +415,42 @@ div {
 }
 
 .publication-main {
-  margin-top: 15rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-flow: column;
-  gap: 5rem;
   margin-top: 12rem;
-  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  gap: 3rem;
   margin-bottom: 5rem;
+  width: 100%;
+  max-width: 85rem;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .publication-main > h1 {
   font-size: 5rem;
+  margin-bottom: 2rem;
 }
-.publication-main > div {
-  gap: 1rem;
-  text-align: center;
-  width: 85rem;
+
+#publication-sections {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-flow: column;
+  width: 40vw;
 }
 
 .accordion {
-  width: 85rem;
+  width: 100%;
   background: #1A1A24;
   border: 1px solid #2d2f47;
   border-radius: 1.5rem;
   color: white;
   font-size: 2rem;
   cursor: pointer;
-  padding: 18px;
-  width: 100%;
+  margin-top: 1.5rem;
+  padding: 2rem;
   text-align: left;
-  transition: 0.4s;
+  transition: all 0.3s ease;
 }
 
 .accordion:hover {
@@ -462,61 +463,169 @@ div {
   color: white;
   float: right;
   margin-left: 5px;
+  transition: transform 0.3s ease;
 }
 
-.active:after {
+.accordion.active:after {
   content: "↓";
   color: white;
+  transform: rotate(180deg);
 }
 
 .panel {
   width: 100%;
   font-size: 2rem;
-  border: 1px solid #464A73;
+  border: 1px solid #2d2f47;
   border-top: none;
   border-radius: 0 0 1.5rem 1.5rem;
+  transform: translate(0, -8px) !important;
   background-color: #1A1A24;
-  transform: translate(0, -20px);
   display: none;
   overflow: hidden;
   padding: 2rem;
   flex-flow: column;
   gap: 1.2rem;
+  transition: all 0.3s ease;
 }
-.panel .links {
+
+.panel.active {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.publication-item, .pdf {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  justify-content: start;
-  gap: 1rem;
-}
-.panel .links > a {
-  color: #3EAEFF;
-}
-.panel .pdf {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
   justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.publication-item:hover, .pdf:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.pub-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+
+.pub-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allow wrapping */
   width: 100%;
 }
-.panel .pdf div {
-  gap: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+.pub-date {
+  font-size: 1.4rem;
+  margin-left: 0; /* Remove margin */
+  text-align: right; /* Align text to right */
+  color: #9e9ea1;
+  width: 100%; /* Ensure date takes full width */
 }
-.panel .pdf div > p {
-  color: white;
+
+.pub-title {
+  font-size: 1.8rem;
+  text-align: start;
+  max-width: 80%;
+  color: rgb(167, 194, 227);
 }
-.panel .pdf > button {
+
+.pub-authors {
+  font-size: 1.4rem;
+  color: #A0A0A0;
+}
+
+.pub-person {
+  font-size: 1.8rem;
+  margin-top: -1.5rem;
+  color: #989EBD;
+}
+
+.pub-currently {
+  font-size: 1.5rem;
+  color: #A0A0A0;
+}
+
+.pub-identifier {
+  font-size: 1.3rem;
+  color: #AEAED9;
+}
+
+.view-link {
   background: transparent;
   border: 1px solid #7CA9FF;
   outline: none;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #7CA9FF;
   padding: 0.5rem 1.5rem;
   cursor: pointer;
   border-radius: 0.7rem;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  align-self: flex-start;
+}
+
+.view-link:hover {
+  background-color: rgba(124, 169, 255, 0.1);
+}
+
+.pdf {
+  align-items: center;
+}
+
+.pdf .pub-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.pdf img {
+  width: 24px;
+  height: 24px;
+}
+
+.pdfbutton {
+  background: transparent;
+  border: 1px solid #7CA9FF;
+  outline: none;
+  font-size: 1.6rem;
+  color: #7CA9FF;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  width: 30%;
+  border-radius: 0.7rem;
+  transition: all 0.3s ease;
+}
+
+.pdf > button:hover {
+  background-color: rgba(124, 169, 255, 0.1);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slideDown {
+  from {
+    max-height: 0;
+  }
+  to {
+    max-height: 1000px;
+  }
+}
+.panel.active {
+  display: flex;
+  animation: fadeIn 0.3s ease, slideDown 0.5s ease;
 }/*# sourceMappingURL=main.css.map */

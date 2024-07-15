@@ -1,0 +1,640 @@
+[
+    {
+        "title": "Non-linear buckling analysis of delaminated hat-stringer panels using variational asymptotic method",
+        "authors": ["A Phanendra Kumar", "Javier Paz Méndez", "Ramesh Gupta Burela", "Chiara Bisagni", "Dineshkumar Harursampath", "Sathiskumar Anusuya Ponnusami"],
+        "date": "July 4, 2024",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0263822324004045"
+    },
+    {
+        "title": "Investigation of mechanical properties of laminated polymer nanocomposites modified by Graphene Oxide",
+        "authors": ["Jogendra Kumar", "Rajesh Kumar Verma", "Himanshu Mishra", "Ashish Garg", "Dineshkumar Harursampath"],
+        "date": "April 12, 2024",
+        "link": "https://chemrxiv.org/engage/chemrxiv/article-details/66191bbc91aefa6ce1680600"
+    },
+    {
+        "title": "Effect of mix cubic and hexagonal phase on the mechanical and microstructural properties of friction stir welded AZ31 alloy",
+        "authors": ["Virendra Pratap Singh", "Anchit Modi", "Ashish Kumar", "Deepak Kumar", "Vinyas Mahesh", "Dineshkumar Harursampath", "Basil Kuriachen"],
+        "date": "April 15, 2024",
+        "link": "https://www.sciencedirect.com/science/article/abs/pii/S0167577X24002192"
+    },
+    {
+        "title": "Ageing effect on low-velocity impact response on sustainable compliant sandwich composite",
+        "authors": ["Vishwas Mahesh", "Vinyas Mahesh", "Prashanthkumar Hadi", "Dineshkumar Harursampath"],
+        "date": "March 2024",
+        "link": "https://link.springer.com/article/10.1007/s40430-024-04745-w"
+    },
+    {
+        "title": "An investigation into low-velocity impact behavior of functionally graded treated and untreated cenosphere-based syntactic foams",
+        "authors": ["Vishwas Mahesh", "Vinyas Mahesh", "Prashanthkumar Hadi", "Dineshkumar Harursampath"],
+        "date": "March 2024",
+        "link": "https://link.springer.com/article/10.1007/s40430-024-04744-x"
+    },
+    {
+        "title": "Effect of damage evolution on the auxetic behavior of 2D and 3D re-entrant type geometries",
+        "date": "June 2024",
+        "authors": ["Chetna Srivastava", "Vinyas Mahesh", "PJ Guruprasad", "Nik Petrinic", "Fabrizio Scarpa", "Dineshkumar Harursampath", "Sathiskumar A Ponnusami"],
+        "link": "https://www.sciencedirect.com/science/article/pii/S0167663624000723"
+    },
+    {
+        "title": "Role of interfacial shear strength in nanotribological behaviour of PTA deposited Colmonoy 6 coating on SS304 steel",
+        "authors": ["V. P. Singh", "D. Kumar", "V. Mahesh", "D. Harursampath", "B. Kuriachen"],
+        "date": "December 15, 2023",
+        "link": "https://doi.org/10.1016/j.matlet.2023.135287",
+        "identifier": "ISSN: 0167-577X, 1873-4979"
+    },
+    {
+        "title": "Exploiting nonlinearities through geometric engineering to enhance the auxetic behaviour in re-entrant honeycomb metamaterials",
+        "authors": ["C. Srivastava", "L. Bhola", "V. Mahesh", "P. Pitchai", "P. J. Guruprasad", "N. Petrinic", "F. Scarpa", "D. Harursampath", "S. A. Ponnusami"],
+        "date": "November 27, 2023",
+        "link": "https://doi.org/10.1038/s41598-023-47525-7",
+        "identifier": "ISSN: 2045-2322"
+    },
+    {
+        "title": "Mechanical behaviour of carbon nanotube composites: A review of various modelling techniques",
+        "authors": ["R. Sahu", "D. Harursampath", "S. A. Ponnusami"],
+        "date": "November 15, 2023",
+        "link": "https://doi.org/10.1177/00219983231213967",
+        "identifier": "ISSN: 0021-9983"
+    },
+    {
+        "title": "Development & mechanical characterization of cenosphere-reinforced CFRP & natural rubber core sandwich composite",
+        "authors": ["N. U. Aithal", "V. Mahesh", "S. A. Ponnusami", "D. Harursampath"],
+        "date": "September 1, 2023",
+        "link": "https://doi.org/10.1007/s40430-023-04424-2",
+        "identifier": "ISSN: 1678-5878, 1806-3691"
+    },
+    {
+        "title": "Interface engineering of carbon fiber composites using CNT: A review",
+        "authors": ["R. Sahu", "S. A. Ponnusami", "C. Weimer", "D. Harursampath"],
+        "date": "January 10, 2024",
+        "link": "https://doi.org/10.1002/pc.27772",
+        "identifier": "ISSN: 1548-0569, 0272-8397"
+    },
+    {
+        "title": "Computational evaluation of absorption characteristics of ceramic-based auxetic materials in X-band frequency range",
+        "authors": ["A. P. Kumar", "R. Nakka", "D. Harursampath", "S. A. Ponnusami"],
+        "date": "August 30, 2023",
+        "link": "https://doi.org/10.1088/1361-665X/acf53d",
+        "identifier": "ISSN: 1361-665X"
+    },
+    {
+        "title": "Machine learning assisted coupled frequency analysis of skewed multi-phase magnetoelectric composite plates with temperature & moisture dependent properties",
+        "authors": ["V. Mahesh", "S. A. Ponnusami", "D. Harursampath"],
+        "date": "August 9, 2023",
+        "link": "https://doi.org/10.1080/15376494.2023.2242858",
+        "identifier": "ISSN: 1537-6494, 1537-6532"
+    },
+    {
+        "title": "Three Body Abrasion Wear Resistance of Cenosphere Particle Reinforced Syntactic Foams Developed using Moulding Method",
+        "authors": ["V. Mahesh", "J. Shivanna", "R. C. Lakshmikanth", "G. T. Renukumar", "B. C. Muthuramaiah", "D. Harursampath"],
+        "date": "July 2023",
+        "link": "https://doi.org/10.1002/pen.26430",
+        "identifier": "ISSN: 0032-3888, 1548-2634"
+    },
+    {
+        "title": "Evaluating energy absorption of sustainable rubber crumb/kenaf composites through artificial neural network strategies for low-velocity impact loads",
+        "authors": ["V. Mahesh", "D. Harursampath"],
+        "date": "September 2023",
+        "link": "https://doi.org/10.1002/pc.27551",
+        "identifier": "ISSN: 1548-0569, 0272-8397"
+    },
+    {
+        "title": "Effective Mechanical Properties of Auxetic Materials: Numerical Predictions Using Variational Asymptotic Method Based Homogenization",
+        "authors": ["C. Srivastava", "V. Mahesh", "P. Pitchai", "P. J. Guruprasad", "N. Petrinic", "F. Scarpa", "D. Harursampath", "S. A. Ponnusami"],
+        "date": "November 2023",
+        "link": "https://doi.org/10.1115/1.4062845",
+        "identifier": "ISSN: 1528-9036, 0021-8936"
+    },
+    {
+        "title": "Influence of fibre cross-section profile on the multi-physical properties of uni-directional composites",
+        "authors": ["R. Nakka", "D. Harursampath", "S. A. Ponnusami"],
+        "date": "October 1, 2023",
+        "link": "https://doi.org/10.1016/j.compstruct.2023.117321",
+        "identifier": "ISSN: 0263-8223, 1879-1085"
+    },
+    {
+        "title": "A generalised deep learning-based surrogate model for homogenisation utilising material property encoding & physics-based bounds",
+        "authors": ["R. Nakka", "D. Harursampath", "S. A. Ponnusami"],
+        "date": "May 2023",
+        "link": "https://doi.org/10.1038/s41598-023-34823-3",
+        "identifier": "ISSN: 2045-2322"
+    },
+    {
+        "title": "Continuum modelling of nonlinear buckling behavior of CNT using variational asymptotic method & nonlinear FEA",
+        "authors": ["R. Sahu", "D. Harursampath", "S. A. Ponnusami"],
+        "date": "May 19, 2023",
+        "link": "https://doi.org/10.1080/15376494.2023.2211971",
+        "identifier": "ISSN: 1537-6494, 1537-6532"
+    },
+    {
+        "title": "Closed-form asymptotic micromechanics model of fiber reinforced polymer & metal matrix composites",
+        "authors": ["M. V. P. Rao", "D. Harursampath", "M. V. V. S. Murthy"],
+        "date": "May 2023",
+        "link": "https://doi.org/10.1016/j.finmec.2023.100188",
+        "identifier": "ISSN: 2666-3597"
+    },
+    {
+        "title": "Stochastic analysis of a three phase composite using variational asymptotic based homogenization technique coupled with stochastic reduced order model",
+        "authors": ["P. Pitchai", "D. Harursampath", "P. J. Guruprasad"],
+        "date": "July 2023",
+        "link": "https://doi.org/10.1016/j.compstruct.2023.117040",
+        "identifier": "ISSN: 0263-8223, 1879-1085"
+    },
+    {
+        "title": "Thermo-mechanical large deformation characteristics of cutout borne multilayered curved structure: Numerical prediction & experimental validation",
+        "authors": ["H. C. Dewangan", "S. K. Panda", "N. Sharma", "S. R. Mahmoud", "D. Harursampath", "V. Mahesh"],
+        "date": "2023",
+        "link": "https://doi.org/10.1016/j.ijnonlinmec.2022.104345",
+        "identifier": "ISSN: 0020-7462, 1878-5638"
+    },
+    {
+        "title": "Vibration based energy harvesting performance of magneto-electro-elastic beams reinforced with carbon nanotubes",
+        "authors": ["A. S. Mangalasseri", "V. Mahesh", "S. Mukunda", "S. A. Ponnusami", "D. Harursampath", "A. Tounsi"],
+        "date": "2023",
+        "link": "https://doi.org/10.12989/ANR.2023.14.1.027",
+        "identifier": "ISSN: 2287-237X, 2287-2388"
+    },
+    {
+        "title": "Vibration-Based Energy Harvesting Characteristics of Functionally Graded Magneto-Electro-Elastic Beam Structures Using Lumped Parameter Model",
+        "authors": ["A. S. Mangalasseri", "V. Mahesh", "S. Mukunda", "S. A. Ponnusami", "D. Harursampath", "A. Tounsi"],
+        "date": "2022",
+        "link": "https://doi.org/10.1007/s42417-022-00477-0",
+        "identifier": "ISSN: 2523-3920, 2523-3939"
+    },
+    {
+        "title": "Mechanical characterization of natural & synthetic fibre based penta layered hybrid polymer composite",
+        "authors": ["V. Mahesh", "V. Mahesh", "D. Harursampath"],
+        "date": "2023",
+        "link": "https://doi.org/10.1177/09544062231152346",
+        "identifier": "ISSN: 0954-4062, 2041-2983"
+    },
+    {
+        "title": "Experimental investigation of the in-plane quasi-static mechanical behaviour of additively-manufactured polyethylene terephthalate/organically modified montmorillonite nanoclay composite auxetic structures",
+        "authors": ["V. Mahesh", "P. G. Maladkar", "G. S. Sadaram", "A. Joseph", "V. Mahesh", "D. Harursampath"],
+        "date": "December 21, 2022",
+        "link": "https://doi.org/10.1177/08927057221147826",
+        "identifier": "ISSN: 0892-7057, 1530-7980"
+    },
+    {
+        "title": "Additively manufactured meta-biomaterials: A state-of-the-art review",
+        "authors": ["S. Vyavahare", "V. Mahesh", "V. Mahesh", "D. Harursampath"],
+        "date": "2023",
+        "link": "https://doi.org/10.1016/j.compstruct.2022.116491",
+        "identifier": "ISSN: 0263-8223, 1879-1085"
+    },
+    {
+        "title": "Geometrical large deformation-dependent numerical dynamic deflection prediction of cutout borne composite structure under thermomechanical loadings & experimental verification",
+        "authors": ["H. C. Dewangan", "S. K. Panda", "S. R. Mahmoud", "D. Harursampath", "V. Mahesh"],
+        "date": "November 1, 2022",
+        "link": "https://doi.org/10.1007/s00707-022-03403-3",
+        "identifier": "ISSN: 1619-6937, 0001-5970"
+    },
+    {
+        "title": "Post-buckling & vibration analysis of randomly distributed CNT reinforced fibre composite plates under localised heating",
+        "authors": ["S. Chakraborty", "T. Dey", "V. Mahesh", "D. Harursampath"],
+        "date": "2023",
+        "link": "https://doi.org/10.1080/15376494.2022.2095470",
+        "identifier": "ISSN: 1537-6494, 1537-6532"
+    },
+    {
+        "title": "Wavelet-based techniques for Hygro-Magneto-Thermo vibration of nonlocal strain gradient nanobeam resting on Winkler-Pasternak elastic foundation",
+        "authors": ["S. K. Jena", "S. Chakraverty", "V. Mahesh", "D. Harursampath"],
+        "date": "July 2022",
+        "link": "https://doi.org/10.1016/j.enganabound.2022.04.037",
+        "identifier": "ISSN: 0955-7997"
+    },
+    {
+        "title": "Application of Haar wavelet discretization & differential quadrature methods for free vibration of functionally graded micro-beam with porosity using modified couple stress theory",
+        "authors": ["S. K. Jena", "S. Chakraverty", "V. Mahesh", "D. Harursampath"],
+        "date": "July 2022",
+        "link": "https://doi.org/10.1016/j.enganabound.2022.04.009",
+        "identifier": "ISSN: 0955-7997"
+    },
+    {
+        "title": "A computationally efficient approach for generating RVEs of various inclusion/fibre shapes",
+        "authors": ["R. Nakka", "D. Harursampath", "M. Pathan", "S. A. Ponnusami"],
+        "date": "July 2022",
+        "link": "https://doi.org/10.1016/j.compstruct.2022.115560",
+        "identifier": "ISSN: 0263-8223, 1879-1085"
+    },
+    {
+        "title": "Influence of micro-topological textures of BaTiO3–CoFe2O4 composites on the nonlinear pyrocoupled dynamic response of blast loaded magneto-electro-elastic plates in thermal environment",
+        "authors": ["V. Mahesh", "V. Mahesh", "S. Mukunda", "D. Harursampath"],
+        "date": "June 2022",
+        "link": "https://doi.org/10.1140/epjp/s13360-022-02829-x",
+        "identifier": "ISSN: 2190-5444"
+    },
+    {
+        "title": "Free vibration of functionally graded beam embedded in Winkler-Pasternak elastic foundation with geometrical uncertainties using symmetric Gaussian fuzzy number",
+        "authors": ["S. K. Jena", "S. Chakraverty", "V. Mahesh", "D. Harursampath", "H. M. Sedighi"],
+        "date": "March 2022",
+        "link": "https://doi.org/10.1140/epjp/s13360-022-02607-9",
+        "identifier": "ISSN: 2190-5444"
+    },
+    {
+        "title": "Snap-through analysis of multistable laminate using the variational asymptotic method",
+        "authors": ["A. P. Kumar", "S. M. Khajamoinuddin", "B. R. Gupta", "V. Mahesh", "D. Harursampath"],
+        "date": "February 15, 2022",
+        "link": "https://doi.org/10.1080/15397734.2022.2036617",
+        "identifier": "ISSN: 1539-7742, 1539-7734"
+    },
+    {
+        "title": "A novel numerical approach for the stability of nanobeam exposed to hygro‐thermo‐magnetic environment embedded in elastic foundation",
+        "authors": ["S. K. Jena", "S. Chakraverty", "V. Mahesh", "D. Harursampath", "H. M. Sedighi"],
+        "date": "January 2022",
+        "link": "https://doi.org/10.1002/zamm.202100380",
+        "identifier": "ISSN: 0044-2267, 1521-4001"
+    },
+    {
+        "title": "Development of Sustainable Jute/Epoxy Composite & Assessing the Effect of Rubber Crumb on Low Velocity Impact Response",
+        "authors": ["V. Mahesh", "V. Mahesh", "D. Harursampath", "S. Joladarshi", "S. M. Kulkarni"],
+        "date": "March 2022",
+        "link": "https://doi.org/10.1080/15440478.2022.2054897",
+        "identifier": "ISSN: 1544-0478"
+    },
+    {
+        "title": "Physio-Mechanical Characterization of Jute/Kevlar Hybrid Composites Coupled with MADM Approach for Selection of Composites",
+        "authors": ["M. Vinyas", "M. Vishwas", "D. Harursampath"],
+        "date": "December 2021",
+        "link": "https://doi.org/10.1080/15440478.2021.2009403",
+        "identifier": "ISSN: 1544-0478"
+    },
+    {
+        "title": "Ballistic characterization of fiber elastomer metal laminate composites & effect of positioning of fiber reinforced elastomer",
+        "authors": ["M. Vishwas", "M. Vinyas", "D. Harursampath"],
+        "date": "March 2022",
+        "link": "https://doi.org/10.1177%2F14644207211053963",
+        "identifier": "ISSN: 2041-2983"
+    },
+    {
+        "title": "Investigation on the interphase effects on the energy harvesting characteristics of three phase magneto-electro-elastic cantilever beam",
+        "authors": ["A. S. Mangalasseri", "V. Mahesh", "V. Mahesh", "S. A. Ponnusami", "D. Harursampath"],
+        "date": "April 2022",
+        "link": "https://doi.org/10.1080/15376494.2022.2062630",
+        "identifier": "ISSN: 1537-6494, 1537-6532"
+    },
+    {
+        "title": "On the Application of Additive Manufacturing Methods for Auxetic Structures: A Review",
+        "authors": ["S. J. Athul", "M. Vinyas", "D. Harursampath"],
+        "date": "September 2021",
+        "link": "https://doi.org/10.1007/s40436-021-00357-y",
+        "identifier": "ISSN: 2095-281X"
+    },
+    {
+        "title": "Thermal characterization of organically modified montmorillonite & short carbon fibers reinforced glycol-modified polyethylene terephthalate nanocomposite filaments",
+        "authors": ["M. Vinyas", "S. J. Athul", "M. Vishwas", "D. Harursampath"],
+        "date": "September 2021",
+        "link": "https://doi.org/10.1002/pc.26163",
+        "identifier": "ISSN: 1548-0569, 0272-8397"
+    },
+    {
+        "title": "Simulation-based assessment of coupled frequency response of magneto-electro-elastic auxetic multifunctional structures subjected to various electromagnetic circuits",
+        "authors": ["M. Vinyas", "M. Vishwas", "D. Harursampath", "A. E. Abouelregal"],
+        "date": "June 2021",
+        "link": "https://doi.org/10.1177%2F14644207211021933",
+        "identifier": "ISSN: 2041-2983"
+    },
+    {
+        "title": "Influence of alkali treatment on physio-mechanical properties of jute–epoxy composite",
+        "authors": ["M. Vinyas", "M. Vishwas", "D. Harursampath"],
+        "date": "June 2021",
+        "link": "https://doi.org/10.1080/2374068X.2021.1934643",
+        "identifier": "ISSN: 2374-068X"
+    },
+    {
+        "title": "Investigation on the mechanical properties of additively manufactured PETG composites reinforced with OMMT nanoclay & carbon fibres",
+        "authors": ["M. Vinyas", "S. J. Athul", "M. Vishwas", "D. Harursampath", "V. N. Chethan"],
+        "date": "May 2021",
+        "link": "https://doi.org/10.1002/pc.25985",
+        "identifier": "ISSN: 1548-0569, 0272-8397"
+    },
+    {
+        "title": "Effect of the base-pair sequence on B-DNA thermal conductivity",
+        "authors": ["V. Mahalingam", "D. Harursampath"],
+        "date": "September 2021",
+        "link": "https://doi.org/10.1021/acs.jpcb.1c04318",
+        "identifier": "ISSN: 1520-6106"
+    },
+    {
+        "title": "An experimental study on ballistic impact response of jute reinforced polyethylene glycol & nano silica based shear thickening fluid composite",
+        "authors": ["M. Vishwas", "D. Harursampath", "M. Vinyas"],
+        "date": "2021",
+        "link": "https://doi.org/10.1016/j.dt.2021.03.013",
+        "identifier": "ISSN: 2214-9147"
+    },
+    {
+        "title": "Thermal conductivity of B-DNA",
+        "authors": ["V. Mahalingam", "D. Harursampath"],
+        "date": "February 2021",
+        "link": "https://doi.org/10.1021/acs.jpcb.0c09288",
+        "identifier": "ISSN: 1520-6106"
+    },
+    {
+        "title": "Mechanical characterization of a woven multi-layered hyperelastic composite laminate under uniaxial loading",
+        "authors": ["S. M. Khajamoinuddin", "A. Chatterjee", "M. R. Bhat", "D. Harursampath", "N. Gundiah"],
+        "date": "September 2021",
+        "link": "https://doi.org/10.1177/00219983211011528",
+        "identifier": "ISSN: 0021-9983"
+    },
+    {
+        "title": "On vibration analysis of functionally graded carbon nanotube reinforced magneto-electro-elastic plates with different electro-magnetic conditions using higher order finite element methods",
+        "authors": ["M. Vinyas", "D. Harursampath", "S. C. Kattimani"],
+        "date": "February 2021",
+        "link": "https://doi.org/10.1016/j.dt.2020.03.012",
+        "identifier": "ISSN: 2214-9147"
+    },
+    {
+        "title": "A higher order coupled frequency characteristics study of smart magneto-electro-elastic composite plates with cut-outs using finite element methods",
+        "authors": ["M. Vinyas", "D. Harursampath", "T. Nguyen-Thoi"],
+        "date": "February 2021",
+        "link": "https://doi.org/10.1016/j.dt.2020.02.009",
+        "identifier": "ISSN: 2214-9147"
+    },
+    {
+        "title": "Large deflection analysis of functionally graded magneto-electro-elastic porous flat panels",
+        "authors": ["M. Vinyas", "D. Harursampath"],
+        "date": "February 2021",
+        "link": "https://doi.org/10.1007/s00366-020-01270-x",
+        "identifier": "ISSN: 0177-0667, 1435-5663"
+    },
+    {
+        "title": "Impact damage of hemispherical shells formed by direct metal laser sintering",
+        "authors": ["K. V. R. Sateesh", "D. Harursampath"],
+        "date": "2020",
+        "link": "https://doi.org/10.1016/j.matpr.2020.03.433",
+        "identifier": "ISSN: 2214-7853"
+    },
+    {
+        "title": "Nonlinear vibrations of magneto-electro-elastic doubly curved shells reinforced with carbon nanotubes",
+        "authors": ["M. Vinyas", "D. Harursampath"],
+        "date": "December 2020",
+        "link": "https://doi.org/10.1016/j.compstruct.2020.112749",
+        "identifier": "ISSN: 0263-8223, 1879-1085"
+    },
+    {
+        "title": "Influence of Active Constrained Layer Damping on the Coupled Vibration Response of Functionally Graded Magneto-electro-elastic Plates with Skewed Edges",
+        "authors": ["M. Vinyas", "D. Harursampath"],
+        "date": "October 2020",
+        "link": "https://doi.org/10.1016/j.dt.2019.11.016",
+        "identifier": "ISSN: 2214-9147"
+    },
+    {
+        "title": "Computational evaluation of electro-magnetic circuits’ effect on the coupled response of multifunctional magneto-electro-elastic composites plates exposed to hygrothermal fields",
+        "authors": ["M. Vinyas", "D. Harursampath"],
+        "date": "September 2020",
+        "link": "https://doi.org/10.1177/0954406220954485",
+        "identifier": "ISSN: 0954-4062"
+    },
+    {
+        "title": "Geometric nonlinear analysis of composite stiffened panels using variational asymptotic method",
+        "authors": ["K. J. Narayana", "R. G. Burela", "S. A. Ponnusami", "D. Harursampath"],
+        "date": "August 2020",
+        "link": "https://doi.org/10.2514/1.J058963",
+        "identifier": "ISSN: 0001-1452"
+    },
+    {
+        "title": "Nonlinear deflection analysis of CNT/magneto- electro-elastic smart shells under multi-physics loading",
+        "authors": ["M. Vinyas", "D. Harursampath"],
+        "date": "August 2020",
+        "link": "https://doi.org/10.1080/15376494.2020.1805059",
+        "identifier": "ISSN: 1537-6494, 1537-6532"
+    },
+    {
+        "title": "Nonlinear vibration of functionally graded magneto-electro-elastic higher order plates reinforced by CNTs using FEM",
+        "authors": ["M. Vinyas", "D. Harursampath"],
+        "date": "July 2020",
+        "link": "https://doi.org/10.1007/s00366-020-01098-5",
+        "identifier": "ISSN: 0177-0667, 1435-5663"
+    },
+    {
+        "title": "Thermal response analysis of multi-layered magneto-electro-thermo-elastic plates using Reddy’s third order shear deformation theory",
+        "authors": ["M. Vinyas", "D. Harursampath", "S. C. Kattimani"],
+        "date": "March 2020",
+        "link": "https://doi.org/10.12989/sem.2020.73.6.667",
+        "identifier": "ISSN: 1225-4568, 1598-6217"
+    },
+    {
+        "title": "Estimation of material properties of Metal Matrix Composites using Finite Element Method in the presence of micromechanics damages",
+        "authors": ["M. V. P. Rao", "D. Raj", "D. Harursampath", "K. Renji"],
+        "date": "February 2020",
+        "link": "https://doi.org/10.1016/j.matpr.2020.01.062",
+        "identifier": "ISSN: 2214-7853"
+    },
+    {
+        "title": "Introduction to the Special Section on Asymptotic Analyses, Dynamics & Aeroelasticity",
+        "authors": ["D. Harursampath"],
+        "date": "October 2019",
+        "link": "https://doi.org/10.2514/1.J059037",
+        "identifier": "ISSN: 0001-1452"
+    },
+    {
+        "title": "Mechanical Characterization of the Poly Lactic Acid (PLA) Composites Prepared through the Fused Deposition Modelling Process",
+        "authors": ["M. Vinyas", "S. J. Athul", "D. Harursampath", "T. Nguyen-Thoi"],
+        "date": "September 2019",
+        "link": "https://doi.org/10.1088/2053-1591/ab3ff3",
+        "identifier": "ISSN: 2053-1591"
+    },
+    {
+        "title": "Coupled Evaluation of the Free Vibration Characteristics of Magneto-electro-elastic Skew Plates in Hygrothermal Environment",
+        "authors": ["M. Vinyas", "S. Kattimani", "D. Harursampath", "N. T. Trung"],
+        "date": "2019",
+        "link": "https://doi.org/10.12989/sss.2019.24.2.267",
+        "identifier": "ISSN: 1738-1584, 1738-1991"
+    },
+    {
+        "title": "Influence of Interphase on the Multi-physics Coupled Frequency of Three-phase Smart Magneto-electro-elastic Composite Plates",
+        "authors": ["M. Vinyas", "K. K. Sunny", "D. Harursampath", "T. Nguyen-Thoi", "M. A. R. Loja"],
+        "date": "October 2019",
+        "link": "https://doi.org/10.1016/j.compstruct.2019.111254",
+        "identifier": "ISSN: 0263-8223, 1879-1085"
+    },
+    {
+        "title": "A Comprehensive Review on Analysis of Nanocomposites: from Manufacturing to Properties Characterization",
+        "authors": ["M. Vinyas", "S. J. Athul", "D. Harursampath", "M. A. R. Loja", "T. Nguyen-Thoi"],
+        "date": "July 2019",
+        "link": "https://doi.org/10.1088/2053-1591/ab3175",
+        "identifier": "ISSN: 2053-1591"
+    },
+    {
+        "title": "Asymptotic Modeling of Nonlinear Bending & Buckling Behavior of Carbon Nanotubes",
+        "authors": ["S. A. Ponnusami", "M. Gupta", "D. Harursampath"],
+        "date": "October 2019",
+        "link": "http://dx.doi.org/10.2514/1.J057564",
+        "identifier": "ISSN: 0001-1452"
+    },
+    {
+        "title": "Application of Variational Asymptotic Micromechanical Method to Strength Analysis of Composite Materials",
+        "authors": ["D. Kumar", "D. Harursampath"],
+        "date": "2019",
+        "link": "https://doi.org/10.4028/www.scientific.net/KEM.801.95",
+        "identifier": "ISSN: 1662-9795"
+    },
+    {
+        "title": "Dynamic instability analysis of multifunctional composite structures",
+        "authors": ["Y. Kumar", "B. Rammohan", "P. R. Budarapu", "D. Harursampath", "K. N. Seetharamu"],
+        "date": "February 2019",
+        "link": "http://dx.doi.org/10.2514/1.J057479",
+        "identifier": "ISSN: 0001-1452"
+    },
+    {
+        "title": "Experimental evaluation of the mechanical & thermal properties of 3D printed PLA & its composites",
+        "authors": ["M. Vinyas", "S. J. Athul", "D. Harursampath", "T. N. Thoi"],
+        "date": "25 Sep 2019",
+        "link": "https://doi.org/10.1088/2053-1591/ab43ab",
+        "identifier": "ISSN: 2053-1591"
+    },
+    {
+        "title": "Asymptotic Theory of 3D Thermoelastic Stress Analysis of Honeycomb Sandwich Panels with Composite Facesheets",
+        "authors": ["M. V. P. Rao", "K. Renji", "D. Harursampath"],
+        "date": "August 2018",
+        "link": "http://dx.doi.org/10.1177/1099636218791105",
+        "identifier": "ISSN: 1099-6362"
+    },
+    {
+        "title": "Modal analysis of delaminated plates & shell using Carrera Unified Formulation - MITC9 shell element",
+        "authors": ["S. K. Kumar", "D. Harursampath", "E. Carrera", "M. Cinefra", "S. Valvano"],
+        "date": "June 2018",
+        "link": "http://dx.doi.org/10.1080/15376494.2017.1302024",
+        "identifier": "ISSN: 1537-6494, 1537-6532"
+    },
+    {
+        "title": "Robust Design of Small Unmanned Helicopter for Hover Performance using Taguchi Method",
+        "authors": ["D. R. Abhiram", "R. Ganguli", "D. Harursampath", "P. P. Friedmann"],
+        "date": "Jul–Aug 2018",
+        "link": "http://dx.doi.org/10.2514/1.C034539",
+        "identifier": "ISSN: 0021-8669"
+    },
+    {
+        "title": "Model Reduction in Thin-Walled Open-Section Composite Beams using Variational Asymptotic Method. Part II: Applications",
+        "authors": ["D. Harursampath", "A. B. Harish", "D. H. Hodges"],
+        "date": "August 2017",
+        "link": "https://doi.org/10.1016/j.tws.2017.03.021",
+        "identifier": "ISSN: 0263-8231"
+    },
+    {
+        "title": "Model Reduction in Thin-Walled Open-Section Composite Beams using Variational Asymptotic Method. Part I: Theory",
+        "authors": ["D. Harursampath", "A. B. Harish", "D. H. Hodges"],
+        "date": "August 2017",
+        "link": "https://doi.org/10.1016/j.tws.2017.03.018",
+        "identifier": "ISSN: 0263-8231"
+    },
+    {
+        "title": "Detecting Width-wise Partial Delamination in the Composite Beam using Generalized Fractal Dimension",
+        "authors": ["S. K. Kumar", "R. Ganguli", "D. Harursampath"],
+        "date": "2017",
+        "link": "https://doi.org/10.12989/sss.2017.19.1.091",
+        "identifier": "ISSN: 1738-1584"
+    },
+    {
+        "title": "Three-dimensional Warping in Strip-based Composite Four-Bar Mechanisms",
+        "authors": ["H. Pollayi", "D. Harursampath"],
+        "date": "March 2016",
+        "link": "http://dx.doi.org/10.1016/j.engstruct.2015.11.027",
+        "identifier": "ISSN: 0141-0296"
+    },
+    {
+        "title": "Dielectric Elastomers: Asymptotically-correct Three-Dimensional Displacement Field",
+        "authors": ["R. G. Burela", "D. Harursampath"],
+        "date": "2015",
+        "link": "http://dx.doi.org/10.1016/j.ijengsci.2014.10.006",
+        "identifier": "ISSN: 0020-7225"
+    },
+    {
+        "title": "Non-linear analysis of a thin pre-twisted & delaminated anisotropic strip",
+        "authors": ["P. J. Guruprasad", "M. Thejasvi", "D. Harursampath"],
+        "date": "2014",
+        "link": "http://dx.doi.org/10.1007/s00707-014-1203-4",
+        "identifier": "ISSN: 1619-6937, 0001-5970"
+    },
+    {
+        "title": "Finite Element Analysis of Free Vibration of the Delaminated Composite Plate with Variable Kinematic Multilayered Plate Elements",
+        "authors": ["S. K. Kumar", "M. Cinefra", "E. Carrera", "R. Ganguli", "D. Harursampath"],
+        "date": "2014",
+        "link": "http://dx.doi.org/10.1016/j.compositesb.2014.05.031",
+        "identifier": "ISSN: 1359-8368"
+    },
+    {
+        "title": "Partial Delamination Modeling in Composite Beams using a Finite Element Method",
+        "authors": ["S. K. Kumar", "R. Ganguli", "D. Harursampath"],
+        "date": "2013",
+        "link": "http://dx.doi.org/10.1016/j.finel.2013.07.007",
+        "identifier": "ISSN: 0168-874X"
+    },
+    {
+        "title": "Evaluation of Strength of Component-Laminates in Strip-based Mechanisms",
+        "authors": ["H. Pollayi", "D. Harursampath", "W. Yu"],
+        "date": "2013",
+        "link": "http://dx.doi.org/10.1016/j.compstruct.2012.12.030",
+        "identifier": "ISSN: 0263-8223, 1879-1085"
+    },
+    {
+        "title": "Radial Deformation of Cylinders due to Torsion",
+        "authors": ["S. S. Padhee", "D. Harursampath"],
+        "date": "November 2012",
+        "link": "http://dx.doi.org/10.1115/1.4006803",
+        "identifier": "ISSN: 0021-8936"
+    },
+    {
+        "title": "Geometrically Non-linear Dynamics of Composite Four-Bar Mechanisms",
+        "authors": ["H. Pollayi", "D. Harursampath"],
+        "date": "October 2012",
+        "link": "http://dx.doi.org/10.1016/j.ijnonlinmec.2012.05.002",
+        "identifier": "ISSN: 0020-7462"
+    },
+    {
+        "title": "VAM applied to Dimensional Reduction of Non-linear Hyperelastic Plates",
+        "authors": ["R. G. Burela", "D. Harursampath"],
+        "date": "October 2012",
+        "link": "http://dx.doi.org/10.1016/j.ijengsci.2012.03.019",
+        "identifier": "ISSN: 0020-7225"
+    },
+    {
+        "title": "Surrogate based Design Optimisation of Composite Aerofoil Cross section for Helicopter Vibration Reduction",
+        "authors": ["M. S. Murugan", "R. Ganguli", "D. Harursampath"],
+        "date": "July 2012",
+        "link": "",
+        "identifier": "ISSN: 0001-9240"
+    },
+    {
+        "title": "Prediction of Interlaminar Stresses in Composite Honeycomb Sandwich Panels under Mechanical Loading using Variational Asymptotic Method",
+        "authors": ["M. V. P. Rao", "D. Harursampath", "K. Renji"],
+        "date": "July 2012",
+        "link": "http://dx.doi.org/10.1016/j.compstruct.2012.02.021",
+        "identifier": "ISSN: 0263-8223, 1879-1085"
+    },
+    {
+        "title": "Stochastic Aeroelastic Analysis of Composite Helicopter Rotor",
+        "authors": ["S. Murugan", "R. Ganguli", "D. Harursampath"],
+        "date": "January 2011",
+        "link": "",
+        "identifier": "ISSN: 0001-9240"
+    },
+    {
+        "title": "Material Uncertainty Propagation in Helicopter Non-linear Aeroelastic Response & Vibration Analysis",
+        "authors": ["S. Murugan", "D. Harursampath", "R. Ganguli"],
+        "date": "2008",
+        "link": "",
+        "identifier": "ISSN: 0001-1452"
+    },
+    {
+        "title": "Aeroelastic Response of Composite Helicopter Rotor with Random Material Properties",
+        "authors": ["S. Murugan", "R. Ganguli", "D. Harursampath"],
+        "date": "January–February 2008",
+        "link": "",
+        "identifier": "ISSN: 0021-8669"
+    },
+    {
+        "title": "Asymptotic Analysis of the Non-Linear Behavior of Long Anisotropic Tubes",
+        "authors": ["D. Harursampath", "D. H. Hodges"],
+        "date": "November 1999",
+        "link": "",
+        "identifier": "ISSN: 0020-7462"
+    },
+    {
+        "title": "Non-Classical Effects in Non-Linear Analysis of Pretwisted Anisotropic Strips",
+        "authors": ["D. H. Hodges", "D. Harursampath", "V. V. Volovoi", "C. E. S. Cesnik"],
+        "date": "March 1999",
+        "link": "",
+        "identifier": "ISSN: 0020-7462"
+    }
+]
