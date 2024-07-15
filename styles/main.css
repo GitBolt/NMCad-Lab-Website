@@ -55,7 +55,7 @@ hr {
   width: 100vw;
   font-size: 1.8rem;
   font-weight: 400;
-  z-index: 100;
+  z-index: 1000;
   position: fixed;
 }
 .navbar > div {
@@ -96,14 +96,13 @@ hr {
     left: 2rem;
   }
   .navbar img {
-    position: absolute;
     left: 7rem;
   }
   .navbar .navlinks {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 10rem;
+    top: 8rem;
     padding: 2rem;
     background-color: #130F0F;
     left: 0;
@@ -140,241 +139,176 @@ hr {
   justify-content: center;
   z-index: 100;
   padding: 3rem 2rem;
+  bottom: 0;
 }
 
+@media (max-width: 900px) {
+  .footer {
+    font-size: 1.4rem;
+  }
+}
 .index-parent {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   flex-flow: column;
   gap: 5rem;
   margin-top: 12rem;
 }
 @media screen and (max-width: 500px) {
   .index-parent {
-    gap: 0;
-  }
-  .index-parent .hero > h1 {
-    font-size: 4rem !important;
-  }
-  .index-parent .hero > p {
-    font-size: 2rem !important;
-  }
-  .index-parent > div > div {
-    width: 90vw;
-  }
-  .index-parent > div > div > h2 {
-    font-size: 3rem !important;
-  }
-  .index-parent .missions > div > ul li {
-    line-height: 3.5rem !important;
-    font-size: 2rem !important;
-  }
-  .index-parent .enablers > div > ul p,
-  .index-parent .enablers > div li {
-    line-height: 3.5rem !important;
-    font-size: 2rem !important;
-  }
-  .index-parent .hero-imgs > img:nth-last-child(3) {
-    display: none;
-  }
-  .index-parent .contact > div p {
-    font-size: 2rem !important;
-  }
-  .index-parent .carousal div p {
-    font-size: 2rem !important;
-  }
-}
-@media screen and (max-width: 900px) {
-  .index-parent .hero {
-    width: 90vw;
-  }
-  .index-parent .hero > h1 {
-    font-size: 6rem;
-  }
-  .index-parent .hero > p {
-    font-size: 2.5rem;
-  }
-  .index-parent > div > div {
-    width: 90vw;
-  }
-  .index-parent > div > div > h2 {
-    font-size: 4rem;
-  }
-  .index-parent .missions > div > ul li {
-    font-size: 2.5rem;
-  }
-  .index-parent .enablers > div > ul p,
-  .index-parent .enablers > div li {
-    font-size: 2.5rem;
-  }
-  .index-parent .hero-imgs > img:last-child {
-    display: none;
-  }
-  .index-parent .contact > div p {
-    font-size: 2.5rem;
-  }
-  .index-parent .carousal div p {
-    font-size: 2rem !important;
+    gap: 2rem;
   }
 }
 
 .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
   gap: 1rem;
   text-align: center;
-  width: 85rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-flow: column;
+  width: 100%;
+  max-width: 85rem;
+  padding: 0 2rem;
 }
-.hero > h1 {
-  font-size: 7.1rem;
+.hero h1 {
+  font-size: clamp(4rem, 8vw, 7.1rem);
 }
-.hero > p {
+.hero p {
   color: #AAAAC9;
-  font-size: 3.2rem;
+  font-size: clamp(2rem, 4vw, 3.2rem);
   z-index: 100;
 }
-.hero > p > span {
+.hero p span {
   color: #849FFF;
 }
-.hero > p > b {
+.hero p b {
   font-weight: 700;
 }
-.hero > p > b:last-child {
+.hero p b:last-child {
   text-decoration: underline;
 }
 .hero > div {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   gap: 2rem;
   z-index: 100;
   margin-top: 2rem;
+  flex-wrap: wrap;
 }
-.hero > .prof {
-  font-size: 2.5rem;
+.hero .prof {
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
   color: #849FFF;
 }
-.hero > .prof > span {
+.hero .prof span {
   font-weight: 800;
   color: #C2C1DC;
 }
 
 .missions {
   display: flex;
-  align-items: center;
   justify-content: center;
-  background: linear-gradient(120deg, rgba(132, 159, 255, 0.1490196078), rgba(35, 44, 66, 0.0588235294));
+  align-items: center;
   width: 100%;
   z-index: 2;
+  background: linear-gradient(120deg, rgba(132, 159, 255, 0.1490196078), rgba(35, 44, 66, 0.0588235294));
   margin-top: 3rem;
 }
 .missions > div {
-  width: 60%;
-  flex-flow: column;
-  padding: 4rem 6rem;
+  width: 100%;
+  max-width: 120rem;
+  padding: clamp(2rem, 4vw, 4rem);
 }
-.missions > div > h2 {
+.missions > div h2 {
   text-align: start;
-  font-size: 4.8rem;
+  font-size: clamp(3rem, 6vw, 4.8rem);
   color: white;
   margin-bottom: 2rem;
 }
-.missions > div > ul li {
-  line-height: 5rem;
-  font-size: 2.8rem;
+.missions > div ul li, .missions > div ul p {
+  line-height: 1.6;
+  font-size: clamp(1.6rem, 3vw, 2.8rem);
   color: #AAAAC9;
-}
-
-.bg-ellipse {
-  position: absolute;
-  top: 110%;
-  right: 0%;
 }
 
 .enablers {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 100%;
   z-index: 2;
 }
 .enablers > div {
-  width: 60%;
-  flex-flow: column;
-  padding: 4rem 6rem;
+  width: 100%;
+  max-width: 120rem;
+  padding: clamp(2rem, 4vw, 4rem);
 }
-.enablers > div > h2 {
+.enablers > div h2 {
   text-align: start;
-  font-size: 4.8rem;
+  font-size: clamp(3rem, 6vw, 4.8rem);
   color: white;
   margin-bottom: 2rem;
 }
-.enablers > div > ul > p {
-  line-height: 5rem;
-  font-size: 2.8rem;
+.enablers > div ul li, .enablers > div ul p {
+  line-height: 1.6;
+  font-size: clamp(1.6rem, 3vw, 2.8rem);
   color: #AAAAC9;
 }
-.enablers > div > ul li {
-  line-height: 5rem;
+.enablers ul li {
   margin-left: 3rem;
-  font-size: 2.8rem;
-  color: #AAAAC9;
 }
 
 .news {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 100%;
   z-index: 10;
 }
 .news > div {
-  width: 60%;
-  padding: 4rem 6rem;
+  width: 100%;
+  max-width: 120rem;
+  padding: clamp(2rem, 4vw, 4rem);
   border-radius: 2rem;
   display: flex;
   flex-flow: column;
   gap: 2rem;
 }
-.news > div > h2 {
+.news > div h2 {
   text-align: start;
-  font-size: 4.8rem;
+  font-size: clamp(3rem, 6vw, 4.8rem);
   color: white;
   margin-bottom: 2rem;
 }
 .news > div .carousal {
-  height: 45rem;
+  height: auto;
   width: 100%;
   background: #211F2E;
   border-radius: 2rem;
   overflow: hidden;
-  justify-content: space-between;
-  height: 100%;
-  flex-flow: column;
 }
-.news > div .carousal > div > p {
-  height: 20%;
+.news > div .carousal > div p {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2.5rem;
+  font-size: clamp(1.6rem, 3vw, 2.5rem);
   font-weight: 600;
-  padding: 1rem 2.2rem;
+  padding: 1rem;
   color: #AAAAC9;
 }
-.news > div .carousal > div > img {
-  height: 36rem;
+.news > div .carousal > div img {
   width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
   -o-object-fit: cover;
      object-fit: cover;
 }
 .news > div .carousal-btns {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   gap: 2rem;
   cursor: pointer;
   z-index: 9;
@@ -387,40 +321,60 @@ hr {
 }
 
 .contact {
-  z-index: 10;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 100%;
+  z-index: 10;
   margin-bottom: 2rem;
 }
 .contact > div {
-  width: 60%;
-  padding: 4rem 6rem;
-  width: 60%;
+  width: 100%;
+  max-width: 120rem;
+  padding: clamp(2rem, 4vw, 4rem);
 }
-.contact > div > h2 {
+.contact > div h2 {
   text-align: start;
-  font-size: 4.8rem;
+  font-size: clamp(3rem, 6vw, 4.8rem);
   color: white;
   margin-bottom: 2rem;
 }
-.contact > div > p {
+.contact > div p {
   margin-top: 1rem;
-  font-size: 3.2rem;
+  font-size: clamp(1.4rem, 4vw, 3.2rem);
   color: #849FFF;
 }
-.contact > div > p > span {
+.contact > div p span {
   font-weight: 800;
   color: white;
 }
 
-.bg-comets {
+.bg-ellipse {
   position: absolute;
-  bottom: -175%;
-  right: 10%;
+  top: 110%;
+  right: 0%;
+  max-width: 100%;
+  height: auto;
 }
 
+.bg-comets {
+  position: absolute;
+  bottom: -70%;
+  right: 10%;
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .hero-imgs > img:nth-last-child(3) {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  .hero-imgs > img:last-child {
+    display: none;
+  }
+}
 .publication-main {
   margin-top: 12rem;
   display: flex;
@@ -430,40 +384,40 @@ hr {
   gap: 3rem;
   margin-bottom: 5rem;
   width: 100%;
-  max-width: 85rem;
+  max-width: 95rem;
+  padding: 0 5%;
   margin-left: auto;
   margin-right: auto;
 }
-
 .publication-main > h1 {
-  font-size: 5rem;
+  font-size: clamp(3rem, 5vw, 5rem);
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 #publication-sections {
   display: flex;
   flex-flow: column;
-  width: 40vw;
+  width: 100%;
 }
 
 .accordion {
   width: 100%;
   background: #1A1A24;
-  border: 1px solid #2d2f47;
-  border-radius: 1.5rem;
-  color: white;
-  font-size: 2rem;
+  border: 1px solid #222330;
+  border-radius: 1.3rem;
+  color: rgb(231, 231, 231);
+  font-size: clamp(1.6rem, 3vw, 2rem);
   cursor: pointer;
   margin-top: 1.5rem;
-  padding: 2rem;
+  padding: 1.5rem;
   text-align: left;
+  font-size: 2.4rem;
   transition: all 0.3s ease;
 }
-
 .accordion:hover {
   background-color: #3c3c4e;
 }
-
 .accordion:after {
   content: "↑";
   font-size: 13px;
@@ -472,7 +426,6 @@ hr {
   margin-left: 5px;
   transition: transform 0.3s ease;
 }
-
 .accordion.active:after {
   content: "↓";
   color: white;
@@ -481,20 +434,20 @@ hr {
 
 .panel {
   width: 100%;
-  font-size: 2rem;
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
   border: 1px solid #2d2f47;
   border-top: none;
-  border-radius: 0 0 1.5rem 1.5rem;
+  border-radius: 0 0 1.3rem 1.3rem;
   transform: translate(0, -8px) !important;
   background-color: #1A1A24;
   display: none;
   overflow: hidden;
-  padding: 2rem;
+  padding: 1.5rem;
   flex-flow: column;
   gap: 1.2rem;
   transition: all 0.3s ease;
+  z-index: 0;
 }
-
 .panel.active {
   transform: translate(0, 0);
   opacity: 1;
@@ -509,7 +462,6 @@ hr {
   border-radius: 0.5rem;
   transition: background-color 0.3s ease;
 }
-
 .publication-item:hover, .pdf:hover {
   background-color: rgba(255, 255, 255, 0.05);
 }
@@ -523,97 +475,77 @@ hr {
 
 .pub-header {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap; /* Allow wrapping */
+  flex-direction: column;
+  align-items: flex-start;
   width: 100%;
 }
 
 .pub-date {
-  font-size: 1.4rem;
-  margin-left: 0; /* Remove margin */
-  text-align: right; /* Align text to right */
+  font-size: clamp(1.2rem, 2vw, 1.4rem);
   color: #9e9ea1;
-  width: 100%; /* Ensure date takes full width */
+  margin-top: 0.5rem;
 }
 
 .pub-title {
-  font-size: 1.8rem;
+  font-size: clamp(1.6rem, 2.5vw, 1.8rem);
   text-align: start;
-  max-width: 80%;
   color: rgb(167, 194, 227);
 }
 
 .pub-authors {
-  font-size: 1.4rem;
+  font-size: clamp(1.2rem, 2vw, 1.4rem);
   color: #A0A0A0;
 }
 
 .pub-person {
-  font-size: 1.8rem;
-  margin-top: -1.5rem;
+  font-size: clamp(1.6rem, 2.5vw, 1.8rem);
   color: #989EBD;
 }
 
 .pub-currently {
-  font-size: 1.5rem;
+  font-size: clamp(1.3rem, 2vw, 1.5rem);
   color: #A0A0A0;
 }
 
 .pub-identifier {
-  font-size: 1.3rem;
+  font-size: clamp(1.1rem, 1.8vw, 1.3rem);
   color: #AEAED9;
+  background-color: rgba(174, 174, 217, 0.1);
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.5rem;
+  display: inline-block;
 }
 
-.view-link {
+.view-link, .pdfbutton {
   background: transparent;
   border: 1px solid #7CA9FF;
   outline: none;
-  font-size: 1.6rem;
+  font-size: clamp(1.4rem, 2vw, 1.6rem);
   color: #7CA9FF;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1rem;
   cursor: pointer;
   border-radius: 0.7rem;
   transition: all 0.3s ease;
   text-decoration: none;
   align-self: flex-start;
+  margin-top: 1rem;
 }
-
-.view-link:hover {
+.view-link:hover, .pdfbutton:hover {
   background-color: rgba(124, 169, 255, 0.1);
 }
 
 .pdf {
   align-items: center;
 }
-
 .pdf .pub-info {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 1.5rem;
 }
-
 .pdf img {
   width: 24px;
   height: 24px;
-}
-
-.pdfbutton {
-  background: transparent;
-  border: 1px solid #7CA9FF;
-  outline: none;
-  font-size: 1.6rem;
-  color: #7CA9FF;
-  padding: 1rem 1.5rem;
-  cursor: pointer;
-  width: 30%;
-  border-radius: 0.7rem;
-  transition: all 0.3s ease;
-}
-
-.pdf > button:hover {
-  background-color: rgba(124, 169, 255, 0.1);
 }
 
 @keyframes fadeIn {
@@ -637,46 +569,121 @@ hr {
   animation: fadeIn 0.3s ease, slideDown 0.5s ease;
 }
 
+@media (max-width: 600px) {
+  .pub-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .view-link, .pdfbutton {
+    width: 100%;
+    text-align: center;
+  }
+}
 .courses-parent {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   flex-flow: column;
   gap: 5rem;
-  margin-bottom: 5rem;
-  margin-top: 12rem;
+  margin: 12rem auto 5rem;
+  padding: 0 5%;
+  max-width: 120rem;
+  position: relative;
+  z-index: 1;
 }
 .courses-parent > h1 {
-  font-size: 5rem;
+  font-size: clamp(3.5rem, 5vw, 5rem);
   margin-bottom: 2rem;
+  color: #E0E0E0;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .upcoming, .companies, .taught {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 100%;
+  background: linear-gradient(145deg, #1E1E2D, #101013);
+  border-radius: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.upcoming:hover, .companies:hover, .taught:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 .upcoming > div, .companies > div, .taught > div {
-  width: 60%;
-  flex-flow: column;
-  padding: 0rem 10rem;
+  width: 100%;
+  padding: 4rem;
 }
 .upcoming > div > h2, .companies > div > h2, .taught > div > h2 {
   text-align: start;
-  font-size: 3rem;
+  font-size: clamp(2.2rem, 4vw, 3rem);
   color: #ADC2F9;
   margin-bottom: 2rem;
+  position: relative;
+}
+.upcoming > div > h2:after, .companies > div > h2:after, .taught > div > h2:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1rem;
+  width: 6rem;
+  height: 0.3rem;
+  background-color: #ADC2F9;
+}
+.upcoming > div > ul, .companies > div > ul, .taught > div > ul {
+  list-style-type: none;
+  padding: 0;
 }
 .upcoming > div > ul li, .companies > div > ul li, .taught > div > ul li {
-  line-height: 5rem;
-  font-size: 2.5rem;
-  margin-left: 2rem;
+  position: relative;
+  padding-left: 2.5rem;
+  line-height: 1.6;
+  font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+  margin-bottom: 1.5rem;
   color: #AAAAC9;
+}
+.upcoming > div > ul li:before, .companies > div > ul li:before, .taught > div > ul li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #ADC2F9;
+  font-size: 2.5rem;
 }
 
 .bg-ellipse {
-  position: absolute;
-  top: 0%;
-  right: 0%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+  max-width: 60%;
+  opacity: 0.1;
+  z-index: -1;
+  pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .courses-parent {
+    gap: 3rem;
+  }
+  .upcoming > div, .companies > div, .taught > div {
+    padding: 3rem;
+  }
+  .upcoming > div > h2, .companies > div > h2, .taught > div > h2 {
+    text-align: center;
+  }
+  .upcoming > div > h2:after, .companies > div > h2:after, .taught > div > h2:after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .upcoming > div > ul li, .companies > div > ul li, .taught > div > ul li {
+    padding-left: 2rem;
+  }
+  .bg-ellipse {
+    max-width: 100%;
+  }
 }/*# sourceMappingURL=main.css.map */

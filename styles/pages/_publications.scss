@@ -7,74 +7,77 @@
   gap: 3rem;
   margin-bottom: 5rem;
   width: 100%;
-  max-width: 85rem;
+  max-width: 95rem;
+  padding: 0 5%;
   margin-left: auto;
   margin-right: auto;
-}
 
-.publication-main > h1 {
-  font-size: 5rem;
-  margin-bottom: 2rem;
+  > h1 {
+    font-size: clamp(3rem, 5vw, 5rem);
+    margin-bottom: 2rem;
+    text-align: center;
+  }
 }
 
 #publication-sections {
   display: flex;
   flex-flow: column;
-  width: 40vw;
+  width: 100%;
 }
 
 .accordion {
   width: 100%;
   background: #1A1A24;
-  border: 1px solid #2d2f47;
-  border-radius: 1.5rem;
-  color: white;
-  font-size: 2rem;
+  border: 1px solid #222330;
+  border-radius: 1.3rem;
+  color: rgb(231, 231, 231);
+  font-size: clamp(1.6rem, 3vw, 2rem);
   cursor: pointer;
   margin-top: 1.5rem;
-  padding: 2rem;
+  padding: 1.5rem;
   text-align: left;
+  font-size: 2.4rem;
   transition: all 0.3s ease;
-}
 
-.accordion:hover {
-  background-color: #3c3c4e;
-}
+  &:hover {
+    background-color: #3c3c4e;
+  }
 
-.accordion:after {
-  content: '\2191';
-  font-size: 13px;
-  color: white;
-  float: right;
-  margin-left: 5px;
-  transition: transform 0.3s ease;
-}
+  &:after {
+    content: '\2191';
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+  }
 
-.accordion.active:after {
-  content: "\2193";
-  color: white;
-  transform: rotate(180deg);
+  &.active:after {
+    content: "\2193";
+    color: white;
+    transform: rotate(180deg);
+  }
 }
 
 .panel {
   width: 100%;
-  font-size: 2rem;
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
   border: 1px solid #2d2f47;
   border-top: none;
-  border-radius: 0 0 1.5rem 1.5rem;
+  border-radius: 0 0 1.3rem 1.3rem;
   transform: translate(0, -8px) !important;
   background-color: #1A1A24;
   display: none;
   overflow: hidden;
-  padding: 2rem;
+  padding: 1.5rem;
   flex-flow: column;
   gap: 1.2rem;
   transition: all 0.3s ease;
-}
-
-.panel.active {
-  transform: translate(0, 0);
-  opacity: 1;
+  z-index: 0;
+  &.active {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
 }
 
 .publication-item, .pdf {
@@ -85,10 +88,10 @@
   padding: 1.5rem;
   border-radius: 0.5rem;
   transition: background-color 0.3s ease;
-}
 
-.publication-item:hover, .pdf:hover {
-  background-color: rgba(255, 255, 255, 0.05);
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
 }
 
 .pub-info {
@@ -100,103 +103,80 @@
 
 .pub-header {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap; /* Allow wrapping */
+  flex-direction: column;
+  align-items: flex-start;
   width: 100%;
 }
 
 .pub-date {
-  font-size: 1.4rem;
-  margin-left: 0; /* Remove margin */
-  text-align: right; /* Align text to right */
+  font-size: clamp(1.2rem, 2vw, 1.4rem);
   color: #9e9ea1;
-  width: 100%; /* Ensure date takes full width */
+  margin-top: 0.5rem;
 }
 
-
 .pub-title {
-  font-size: 1.8rem;
+  font-size: clamp(1.6rem, 2.5vw, 1.8rem);
   text-align: start;
-  max-width: 80%;
   color: rgb(167, 194, 227);
 }
 
-
-
 .pub-authors {
-  font-size: 1.4rem;
+  font-size: clamp(1.2rem, 2vw, 1.4rem);
   color: #A0A0A0;
 }
 
-
 .pub-person {
-  font-size: 1.8rem;
-  margin-top: -1.5rem;
+  font-size: clamp(1.6rem, 2.5vw, 1.8rem);
   color: #989EBD;
 }
 
 .pub-currently {
-  font-size: 1.5rem;
+  font-size: clamp(1.3rem, 2vw, 1.5rem);
   color: #A0A0A0;
 }
 
-
-
 .pub-identifier {
-  font-size: 1.3rem;
+  font-size: clamp(1.1rem, 1.8vw, 1.3rem);
   color: #AEAED9;
+  background-color: rgba(174, 174, 217, 0.1);
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.5rem;
+  display: inline-block;
 }
 
-.view-link {
+.view-link, .pdfbutton {
   background: transparent;
   border: 1px solid #7CA9FF;
   outline: none;
-  font-size: 1.6rem;
+  font-size: clamp(1.4rem, 2vw, 1.6rem);
   color: #7CA9FF;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1rem;
   cursor: pointer;
   border-radius: 0.7rem;
   transition: all 0.3s ease;
   text-decoration: none;
   align-self: flex-start;
-}
+  margin-top: 1rem;
 
-.view-link:hover {
-  background-color: rgba(124, 169, 255, 0.1);
+  &:hover {
+    background-color: rgba(124, 169, 255, 0.1);
+  }
 }
 
 .pdf {
   align-items: center;
-}
 
-.pdf .pub-info {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 1.5rem;
-}
+  .pub-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+  }
 
-.pdf img {
-  width: 24px;
-  height: 24px;
-}
-
-.pdfbutton {
-  background: transparent;
-  border: 1px solid #7CA9FF;
-  outline: none;
-  font-size: 1.6rem;
-  color: #7CA9FF;
-  padding: 1rem 1.5rem;
-  cursor: pointer;
-  width: 30%;
-  border-radius: 0.7rem;
-  transition: all 0.3s ease;
-}
-
-.pdf > button:hover {
-  background-color: rgba(124, 169, 255, 0.1);
+  img {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 @keyframes fadeIn {
@@ -212,4 +192,18 @@
 .panel.active {
   display: flex;
   animation: fadeIn 0.3s ease, slideDown 0.5s ease;
+}
+
+@media (max-width: 600px) {
+
+
+  .pub-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .view-link, .pdfbutton {
+    width: 100%;
+    text-align: center;
+  }
 }

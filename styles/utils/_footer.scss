@@ -11,4 +11,12 @@
     justify-content: center;
     z-index: 100;
     padding: 3rem 2rem;
+    bottom: 0;
+}
+
+
+@media (max-width: 900px) {
+    .footer {
+        font-size: 1.4rem;
+    }
 }

@@ -1,331 +1,219 @@
-.index-parent {
-    @include flex_center;
+@mixin responsive($breakpoint) {
+    @if $breakpoint == mobile {
+      @media screen and (max-width: 500px) { @content; }
+    } @else if $breakpoint == tablet {
+      @media screen and (max-width: 900px) { @content; }
+    }
+  }
+  
+  @mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .index-parent {
+    @include flex-center;
     flex-flow: column;
     gap: 5rem;
     margin-top: 12rem;
-
-    @media screen and (max-width: 500px) {
-        gap: 0;
-
-        .hero {
-            >h1 {
-                font-size: 4rem !important;
-            }
-
-            >p {
-                font-size: 2rem !important;
-            }
-        }
-
-        >div>div {
-            width: 90vw;
-
-            >h2 {
-                font-size: 3rem !important;
-            }
-        }
-
-        .missions>div {
-
-            >ul li {
-                line-height: 3.5rem !important;
-                font-size: 2rem !important;
-            }
-        }
-
-        .enablers>div {
-
-            >ul p,
-            li {
-                line-height: 3.5rem !important;
-                font-size: 2rem !important;
-            }
-        }
-
-        .hero-imgs>img:nth-last-child(3) {
-            display: none;
-        }
-
-        .contact>div {
-            p {
-                font-size: 2rem !important;
-            }
-        }
-
-        .carousal div p {
-            font-size: 2rem !important;
-        }
+  
+    @include responsive(mobile) {
+      gap: 2rem;
     }
-
-
-    @media screen and (max-width: 900px) {
-        .hero {
-            width: 90vw;
-
-            >h1 {
-                font-size: 6rem;
-            }
-
-            >p {
-                font-size: 2.5rem;
-            }
-        }
-
-        >div>div {
-            width: 90vw;
-
-            >h2 {
-                font-size: 4rem;
-            }
-        }
-
-        .missions>div {
-
-            >ul li {
-                font-size: 2.5rem;
-            }
-        }
-
-        .enablers>div {
-
-            >ul p,
-            li {
-                font-size: 2.5rem;
-            }
-        }
-
-        .hero-imgs>img:last-child {
-            display: none;
-        }
-
-        .contact>div {
-            p {
-                font-size: 2.5rem;
-            }
-        }
-
-        .carousal div p {
-            font-size: 2rem !important;
-        }
-    }
-}
-
-.hero {
+  }
+  
+  .hero {
+    @include flex-center;
+    flex-flow: column;
     gap: 1rem;
     text-align: center;
-    width: 85rem;
-    @include flex_center;
-    flex-flow: column;
-
-    >h1 {
-        font-size: 7.1rem;
+    width: 100%;
+    max-width: 85rem;
+    padding: 0 2rem;
+  
+    h1 { 
+      font-size: clamp(4rem, 8vw, 7.1rem);
     }
-
-    >p {
-        color: $primaryText;
-        font-size: 3.2rem;
-        z-index: 100;
-        >span {
-            color: $blue1;
-        }
-
-        >b {
-            font-weight: 700;
-        }
-
-        >b:last-child {
-            text-decoration: underline;
-        }
+    
+    p { 
+      color: $primaryText;
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      z-index: 100;
+      span { color: $blue1; }
+      b { 
+        font-weight: 700;
+        &:last-child { text-decoration: underline; }
+      }
     }
-
-    >div {
-        @include flex_center;
-        gap: 2rem;
-        z-index: 100;
-        margin-top: 2rem;
+  
+    > div {
+      @include flex-center;
+      gap: 2rem;
+      z-index: 100;
+      margin-top: 2rem;
+      flex-wrap: wrap;
     }
-
-    >.prof {
-        font-size: 2.5rem;
-        color: $blue1;
-
-        >span {
-            font-weight: 800;
-            color: $gray1;
-        }
+  
+    .prof {
+      font-size: clamp(1.8rem, 3vw, 2.5rem);
+      color: $blue1;
+      span {
+        font-weight: 800;
+        color: $gray1;
+      }
     }
-}
-
-.missions {
-    @include flex_center;
-    @include linear_gradient_bg;
+  }
+  
+  @mixin section-common {
+    @include flex-center;
     width: 100%;
     z-index: 2;
-    margin-top: 3rem;
-
-    >div {
-        width: 60%;
-        flex-flow: column;
-        padding: 4rem 6rem;
-
-        >h2 {
-            text-align: start;
-            font-size: 4.8rem;
-            color: white;
-            margin-bottom: 2rem;
+  
+    > div {
+      width: 100%;
+      max-width: 120rem;
+      padding: clamp(2rem, 4vw, 4rem);
+  
+      h2 {
+        text-align: start;
+        font-size: clamp(3rem, 6vw, 4.8rem);
+        color: white;
+        margin-bottom: 2rem;
+      }
+  
+      ul {
+        li, p {
+          line-height: 1.6;
+          font-size: clamp(1.6rem, 3vw, 2.8rem);
+          color: $primaryText;
         }
-
-        >ul li {
-            line-height: 5rem;
-            font-size: 2.8rem;
-            color: $primaryText;
-        }
+      }
     }
-
-}
-
-.bg-ellipse {
+  }
+  
+  .missions {
+    @include section-common;
+    @include linear_gradient_bg;
+    margin-top: 3rem;
+  }
+  
+  .enablers {
+    @include section-common;
+    ul li { margin-left: 3rem; }
+  }
+  
+  .news {
+    @include flex-center;
+    width: 100%;
+    z-index: 10;
+  
+    > div {
+      width: 100%;
+      max-width: 120rem;
+      padding: clamp(2rem, 4vw, 4rem);
+      border-radius: 2rem;
+      display: flex;
+      flex-flow: column;
+      gap: 2rem;
+  
+      h2 {
+        text-align: start;
+        font-size: clamp(3rem, 6vw, 4.8rem);
+        color: white;
+        margin-bottom: 2rem;
+      }
+  
+      .carousal {
+        height: auto;
+        width: 100%;
+        background: #211F2E;
+        border-radius: 2rem;
+        overflow: hidden;
+  
+        > div {
+          p {
+            @include flex-center;
+            font-size: clamp(1.6rem, 3vw, 2.5rem);
+            font-weight: 600;
+            padding: 1rem;
+            color: $primaryText;
+          }
+  
+          img {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 16 / 9;
+            object-fit: cover;
+          }
+        }
+      }
+  
+      .carousal-btns {
+        @include flex-center;
+        gap: 2rem;
+        cursor: pointer;
+        z-index: 9;
+        background: $bg;
+        transition: 200ms;
+        transform: scale(1.5);
+  
+        > img:hover { background: $gray2; }
+      }
+    }
+  }
+  
+  .contact {
+    @include flex-center;
+    width: 100%;
+    z-index: 10;
+    margin-bottom: 2rem;
+  
+    > div {
+      width: 100%;
+      max-width: 120rem;
+      padding: clamp(2rem, 4vw, 4rem);
+  
+      h2 {
+        text-align: start;
+        font-size: clamp(3rem, 6vw, 4.8rem);
+        color: white;
+        margin-bottom: 2rem;
+      }
+  
+      p {
+        margin-top: 1rem;
+        font-size: clamp(1.4rem, 4vw, 3.2rem);
+        color: $blue1;
+  
+        span {
+          font-weight: 800;
+          color: white;
+        }
+      }
+    }
+  }
+  
+  .bg-ellipse {
     position: absolute;
     top: 110%;
     right: 0%;
-}
-
-.enablers {
-    @include flex_center;
-    width: 100%;
-    z-index: 2;
-
-    >div {
-        width: 60%;
-        flex-flow: column;
-        padding: 4rem 6rem;
-
-        >h2 {
-            text-align: start;
-            font-size: 4.8rem;
-            color: white;
-            margin-bottom: 2rem;
-        }
-
-        >ul>p {
-            line-height: 5rem;
-            font-size: 2.8rem;
-            color: $primaryText;
-        }
-
-        >ul li {
-            line-height: 5rem;
-            margin-left: 3rem;
-            font-size: 2.8rem;
-            color: $primaryText;
-        }
-    }
-
-}
-
-.news {
-    @include flex_center;
-    width: 100%;
-    z-index: 10;
-
-    >div {
-        width: 60%;
-        padding: 4rem 6rem;
-        border-radius: 2rem;
-        display: flex;
-        flex-flow: column;
-        gap: 2rem;
-
-        >h2 {
-            text-align: start;
-            font-size: 4.8rem;
-            color: white;
-            margin-bottom: 2rem;
-        }
-
-
-        .carousal {
-            height: 45rem;
-            width: 100%;
-            background: #211F2E;
-            border-radius: 2rem;
-            overflow: hidden;
-            justify-content: space-between;
-            height: 100%;
-            flex-flow: column;
-
-            >div>p {
-                height: 20%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                font-size: 2.5rem;
-                font-weight: 600;
-                padding: 1rem 2.2rem;
-                color: $primaryText;
-            }
-
-            >div>img {
-                height: 36rem;
-                width: 100%;
-                object-fit: cover;
-            }
-
-        }
-
-        .carousal-btns {
-            @include flex_center;
-            gap: 2rem;
-            cursor: pointer;
-            z-index: 9;
-            background: $bg;
-            transition: 200ms;
-
-            >img:hover {
-                background: $gray2;
-            }
-
-            transform: scale(1.5);
-
-        }
-    }
-}
-
-.contact {
-    z-index: 10;
-    @include flex_center;
-    width: 100%;
-
-    margin-bottom: 2rem;
-
-    >div {
-        width: 60%;
-        padding: 4rem 6rem;
-
-        >h2 {
-            text-align: start;
-            font-size: 4.8rem;
-            color: white;
-            margin-bottom: 2rem;
-        }
-
-        width: 60%;
-
-        >p {
-            margin-top: 1rem;
-            font-size: 3.2rem;
-            color: $blue1;
-
-            >span {
-                font-weight: 800;
-                color: white;
-            }
-        }
-    }
-}
-
-.bg-comets {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .bg-comets {
     position: absolute;
-    bottom: -175%;
+    bottom: -70%;
     right: 10%;
-}
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @include responsive(mobile) {
+    .hero-imgs > img:nth-last-child(3) { display: none; }
+  }
+  
+  @include responsive(tablet) {
+    .hero-imgs > img:last-child { display: none; }
+  }

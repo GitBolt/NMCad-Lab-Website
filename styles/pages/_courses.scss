@@ -1,43 +1,123 @@
 .courses-parent {
-    @include flex_center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-flow: column;
     gap: 5rem;
-    margin-bottom: 5rem;
-    margin-top: 12rem;
+    margin: 12rem auto 5rem;
+    padding: 0 5%;
+    max-width: 120rem;
+    position: relative;
+    z-index: 1;
+  
     > h1 {
-        font-size: 5rem;
-        margin-bottom: 2rem;
-      }
-
-}
-
-.upcoming, .companies, .taught {
-    @include flex_center;
-    width: 100%;
-    >div {
-        width: 60%;
-        flex-flow: column;
-        padding: 0rem 10rem;
-        >h2 {
-            text-align: start;
-            font-size: 3rem;
-            color: #ADC2F9;
-            margin-bottom: 2rem;
-        }
-
-        >ul li {
-            line-height: 5rem;
-            font-size: 2.5rem;
-            margin-left: 2rem;
-            color: $primaryText;
-        }
+      font-size: clamp(3.5rem, 5vw, 5rem);
+      margin-bottom: 2rem;
+      color: #E0E0E0;
+      text-align: center;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     }
-}
-
-
-.bg-ellipse {
-    position: absolute;
-    top: 0%;
-    right: 0%;
-}
-
+  }
+  
+  .upcoming, .companies, .taught {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(145deg, #1E1E2D, #101013);
+    border-radius: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+  
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+  
+    > div {
+      width: 100%;
+      padding: 4rem;
+  
+      > h2 {
+        text-align: start;
+        font-size: clamp(2.2rem, 4vw, 3rem);
+        color: #ADC2F9;
+        margin-bottom: 2rem;
+        position: relative;
+        
+        &:after {
+          content: '';
+          position: absolute;
+          left: 0;
+          bottom: -1rem;
+          width: 6rem;
+          height: 0.3rem;
+          background-color: #ADC2F9;
+        }
+      }
+  
+      > ul {
+        list-style-type: none;
+        padding: 0;
+  
+        li {
+          position: relative;
+          padding-left: 2.5rem;
+          line-height: 1.6;
+          font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+          margin-bottom: 1.5rem;
+          color: $primaryText;
+  
+          &:before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #ADC2F9;
+            font-size: 2.5rem;
+          }
+        }
+      }
+    }
+  }
+  
+  .bg-ellipse {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    max-width: 60%;
+    opacity: 0.1;
+    z-index: -1;
+    pointer-events: none;
+  }
+  
+  @media (max-width: 768px) {
+    .courses-parent {
+      gap: 3rem;
+    }
+  
+    .upcoming, .companies, .taught {
+      > div {
+        padding: 3rem;
+  
+        > h2 {
+          text-align: center;
+  
+          &:after {
+            left: 50%;
+            transform: translateX(-50%);
+          }
+        }
+  
+        > ul li {
+          padding-left: 2rem;
+        }
+      }
+    }
+  
+    .bg-ellipse {
+      max-width: 100%;
+    }
+  }
