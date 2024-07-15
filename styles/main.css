@@ -171,6 +171,7 @@ hr {
   width: 100%;
   max-width: 85rem;
   padding: 0 2rem;
+  z-index: 10;
 }
 .hero h1 {
   font-size: clamp(4rem, 8vw, 7.1rem);
@@ -178,7 +179,6 @@ hr {
 .hero p {
   color: #AAAAC9;
   font-size: clamp(2rem, 4vw, 3.2rem);
-  z-index: 100;
 }
 .hero p span {
   color: #849FFF;
@@ -194,7 +194,6 @@ hr {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  z-index: 100;
   margin-top: 2rem;
   flex-wrap: wrap;
 }
@@ -212,7 +211,6 @@ hr {
   justify-content: center;
   align-items: center;
   width: 100%;
-  z-index: 2;
   background: linear-gradient(120deg, rgba(132, 159, 255, 0.1490196078), rgba(35, 44, 66, 0.0588235294));
   margin-top: 3rem;
 }
@@ -238,7 +236,6 @@ hr {
   justify-content: center;
   align-items: center;
   width: 100%;
-  z-index: 2;
 }
 .enablers > div {
   width: 100%;
@@ -265,7 +262,6 @@ hr {
   justify-content: center;
   align-items: center;
   width: 100%;
-  z-index: 10;
 }
 .news > div {
   width: 100%;
@@ -275,6 +271,7 @@ hr {
   display: flex;
   flex-flow: column;
   gap: 2rem;
+  z-index: 10;
 }
 .news > div h2 {
   text-align: start;
@@ -296,6 +293,7 @@ hr {
   font-size: clamp(1.6rem, 3vw, 2.5rem);
   font-weight: 600;
   padding: 1rem;
+  text-align: start;
   color: #AAAAC9;
 }
 .news > div .carousal > div img {
@@ -311,7 +309,6 @@ hr {
   align-items: center;
   gap: 2rem;
   cursor: pointer;
-  z-index: 9;
   background: #121216;
   transition: 200ms;
   transform: scale(1.5);
@@ -325,7 +322,6 @@ hr {
   justify-content: center;
   align-items: center;
   width: 100%;
-  z-index: 10;
   margin-bottom: 2rem;
 }
 .contact > div {
@@ -349,14 +345,6 @@ hr {
   color: white;
 }
 
-.bg-ellipse {
-  position: absolute;
-  top: 110%;
-  right: 0%;
-  max-width: 100%;
-  height: auto;
-}
-
 .bg-comets {
   position: absolute;
   bottom: -70%;
@@ -375,6 +363,40 @@ hr {
     display: none;
   }
 }
+.hero-imgs > img {
+  width: 25rem !important;
+  border-radius: 1.5rem;
+}
+
+#stars-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.star {
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0.3;
+  animation: twinkle 1s infinite;
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
 .publication-main {
   margin-top: 12rem;
   display: flex;
@@ -384,7 +406,7 @@ hr {
   gap: 3rem;
   margin-bottom: 5rem;
   width: 100%;
-  max-width: 95rem;
+  max-width: 120rem;
   padding: 0 5%;
   margin-left: auto;
   margin-right: auto;
@@ -407,7 +429,7 @@ hr {
   border: 1px solid #222330;
   border-radius: 1.3rem;
   color: rgb(231, 231, 231);
-  font-size: clamp(1.6rem, 3vw, 2rem);
+  font-size: clamp(1.6rem, 3vw, 2.3rem);
   cursor: pointer;
   margin-top: 1.5rem;
   padding: 1.5rem;
@@ -487,18 +509,19 @@ hr {
 }
 
 .pub-title {
-  font-size: clamp(1.6rem, 2.5vw, 1.8rem);
+  font-size: clamp(1.6rem, 2.5vw, 2rem);
   text-align: start;
+  font-weight: 700;
   color: rgb(167, 194, 227);
 }
 
 .pub-authors {
-  font-size: clamp(1.2rem, 2vw, 1.4rem);
-  color: #A0A0A0;
+  font-size: clamp(1.2rem, 2vw, 1.8rem);
+  color: #989EBD;
 }
 
 .pub-person {
-  font-size: clamp(1.6rem, 2.5vw, 1.8rem);
+  font-size: clamp(1.6rem, 2.5vw, 2rem);
   color: #989EBD;
 }
 
@@ -508,8 +531,9 @@ hr {
 }
 
 .pub-identifier {
-  font-size: clamp(1.1rem, 1.8vw, 1.3rem);
+  font-size: clamp(1.1rem, 1.8vw, 1.4rem);
   color: #AEAED9;
+  font-weight: 400;
   background-color: rgba(174, 174, 217, 0.1);
   padding: 0.3rem 0.8rem;
   border-radius: 0.5rem;
