@@ -41,6 +41,10 @@ div {
   -webkit-tap-highlight-color: transparent;
 }
 
+hr {
+  border: 1px solid #313037;
+}
+
 .navbar {
   background-color: #130F0F;
   border-bottom: 1px solid #353148;
@@ -230,6 +234,7 @@ div {
 .hero > p {
   color: #AAAAC9;
   font-size: 3.2rem;
+  z-index: 100;
 }
 .hero > p > span {
   color: #849FFF;
@@ -245,6 +250,7 @@ div {
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  z-index: 100;
   margin-top: 2rem;
 }
 .hero > .prof {
@@ -313,6 +319,7 @@ div {
 }
 .enablers > div > ul li {
   line-height: 5rem;
+  margin-left: 3rem;
   font-size: 2.8rem;
   color: #AAAAC9;
 }
@@ -628,4 +635,48 @@ div {
 .panel.active {
   display: flex;
   animation: fadeIn 0.3s ease, slideDown 0.5s ease;
+}
+
+.courses-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  gap: 5rem;
+  margin-bottom: 5rem;
+  margin-top: 12rem;
+}
+.courses-parent > h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.upcoming, .companies, .taught {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.upcoming > div, .companies > div, .taught > div {
+  width: 60%;
+  flex-flow: column;
+  padding: 0rem 10rem;
+}
+.upcoming > div > h2, .companies > div > h2, .taught > div > h2 {
+  text-align: start;
+  font-size: 3rem;
+  color: #ADC2F9;
+  margin-bottom: 2rem;
+}
+.upcoming > div > ul li, .companies > div > ul li, .taught > div > ul li {
+  line-height: 5rem;
+  font-size: 2.5rem;
+  margin-left: 2rem;
+  color: #AAAAC9;
+}
+
+.bg-ellipse {
+  position: absolute;
+  top: 0%;
+  right: 0%;
 }/*# sourceMappingURL=main.css.map */

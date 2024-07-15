@@ -1,0 +1,43 @@
+.courses-parent {
+    @include flex_center;
+    flex-flow: column;
+    gap: 5rem;
+    margin-bottom: 5rem;
+    margin-top: 12rem;
+    > h1 {
+        font-size: 5rem;
+        margin-bottom: 2rem;
+      }
+
+}
+
+.upcoming, .companies, .taught {
+    @include flex_center;
+    width: 100%;
+    >div {
+        width: 60%;
+        flex-flow: column;
+        padding: 0rem 10rem;
+        >h2 {
+            text-align: start;
+            font-size: 3rem;
+            color: #ADC2F9;
+            margin-bottom: 2rem;
+        }
+
+        >ul li {
+            line-height: 5rem;
+            font-size: 2.5rem;
+            margin-left: 2rem;
+            color: $primaryText;
+        }
+    }
+}
+
+
+.bg-ellipse {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
