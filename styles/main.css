@@ -655,7 +655,7 @@ hr {
 }
 .upcoming > div > h2, .companies > div > h2, .taught > div > h2 {
   text-align: start;
-  font-size: clamp(2.2rem, 4vw, 3rem);
+  font-size: clamp(2.2rem, 4vw, 2.8rem);
   color: #ADC2F9;
   margin-bottom: 2rem;
   position: relative;
@@ -677,7 +677,7 @@ hr {
   position: relative;
   padding-left: 2.5rem;
   line-height: 1.6;
-  font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+  font-size: clamp(1.6rem, 2.5vw, 2rem);
   margin-bottom: 1.5rem;
   color: #AAAAC9;
 }
@@ -1103,5 +1103,104 @@ hr {
   }
   .news-item:hover {
     transform: none;
+  }
+}
+.awards-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  margin: 12rem auto 5rem;
+  padding: 0 5%;
+  max-width: 120rem;
+  position: relative;
+  z-index: 1;
+}
+.awards-parent > h1 {
+  font-size: clamp(3.5rem, 5vw, 5rem);
+  margin-bottom: 2rem;
+  color: #E0E0E0;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.awards, .achievements, .alumni-achievements, .affiliations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.awards > div, .achievements > div, .alumni-achievements > div, .affiliations > div {
+  width: 100%;
+}
+.awards > div > h2, .achievements > div > h2, .alumni-achievements > div > h2, .affiliations > div > h2 {
+  text-align: start;
+  font-size: clamp(2.2rem, 4vw, 3rem);
+  color: #ADC2F9;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.awards > div > h2:after, .achievements > div > h2:after, .alumni-achievements > div > h2:after, .affiliations > div > h2:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1rem;
+  width: 6rem;
+  height: 0.3rem;
+  background-color: #ADC2F9;
+}
+.awards > div > ul, .achievements > div > ul, .alumni-achievements > div > ul, .affiliations > div > ul {
+  list-style-type: none;
+  padding: 0;
+}
+.awards > div > ul li, .achievements > div > ul li, .alumni-achievements > div > ul li, .affiliations > div > ul li {
+  position: relative;
+  padding-left: 2.5rem;
+  line-height: 1.6;
+  font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+  margin-bottom: 1.5rem;
+  color: #AAAAC9;
+}
+.awards > div > ul li:before, .achievements > div > ul li:before, .alumni-achievements > div > ul li:before, .affiliations > div > ul li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #ADC2F9;
+  font-size: 2.5rem;
+}
+
+.bg-ellipse {
+  position: absolute;
+  top: 0;
+  right: -30%;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .courses-parent {
+    gap: 3rem;
+  }
+  .upcoming > div, .companies > div, .taught > div {
+    padding: 3rem;
+  }
+  .upcoming > div > h2, .companies > div > h2, .taught > div > h2 {
+    text-align: center;
+  }
+  .upcoming > div > h2:after, .companies > div > h2:after, .taught > div > h2:after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .upcoming > div > ul li, .companies > div > ul li, .taught > div > ul li {
+    padding-left: 2rem;
+  }
+  .bg-ellipse {
+    max-width: 100%;
   }
 }/*# sourceMappingURL=main.css.map */
