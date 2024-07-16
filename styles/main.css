@@ -141,6 +141,9 @@ hr {
   padding: 3rem 2rem;
   bottom: 0;
 }
+.footer > p {
+  line-height: 2.3rem;
+}
 
 @media (max-width: 900px) {
   .footer {
@@ -212,7 +215,6 @@ hr {
   align-items: center;
   width: 100%;
   background: linear-gradient(120deg, rgba(132, 159, 255, 0.1490196078), rgba(35, 44, 66, 0.0588235294));
-  margin-top: 3rem;
 }
 .missions > div {
   width: 100%;
@@ -229,6 +231,9 @@ hr {
   line-height: 1.6;
   font-size: clamp(1.6rem, 3vw, 2.8rem);
   color: #AAAAC9;
+}
+.missions ul li {
+  margin-left: 3rem;
 }
 
 .enablers {
@@ -801,18 +806,6 @@ hr {
   font-size: 2.5rem;
 }
 
-@media (max-width: 768px) {
-  .research-parent {
-    margin-top: 6rem;
-    gap: 3rem;
-  }
-  .academic, .industrial, .interests, .sponsored-projects, .global, .proposed {
-    margin-bottom: 3rem;
-  }
-  .interests li, .sponsored-projects li, .global li, .proposed li {
-    padding-left: 2rem;
-  }
-}
 @media (max-width: 480px) {
   .research-parent > h1 {
     font-size: clamp(2rem, 5vw, 3rem);
@@ -840,18 +833,40 @@ hr {
   justify-content: center;
   align-items: center;
   flex-flow: column;
-  margin: 0rem auto 0rem;
-  padding: 0 5%;
-  max-width: 120rem;
-  margin-top: 10rem;
+  margin: 10rem auto 2rem;
+  padding: 0 3rem;
+  max-width: 100%;
   position: relative;
   z-index: 1;
+  gap: 1rem;
 }
-
+@media (min-width: 768px) {
+  .researchgroup-parent {
+    padding: 0 5rem;
+    margin-top: 10rem;
+  }
+}
+@media (min-width: 1024px) {
+  .researchgroup-parent {
+    padding: 0 6rem;
+    max-width: 90%;
+  }
+}
+@media (min-width: 1440px) {
+  .researchgroup-parent {
+    padding: 0 12rem;
+    max-width: 120rem;
+  }
+}
 .researchgroup-parent > h1 {
-  font-size: clamp(3rem, 5vw, 5rem);
-  margin-bottom: 5rem;
+  font-size: clamp(2rem, 5vw, 5rem);
+  margin-bottom: 3rem;
   text-align: center;
+}
+@media (min-width: 768px) {
+  .researchgroup-parent > h1 {
+    margin-bottom: 5rem;
+  }
 }
 
 .faculty, .currentphd, .currentdoctoral, .currentstaff, .nmcadalumni {
@@ -859,118 +874,83 @@ hr {
   flex-flow: column;
   align-items: center;
   width: 100%;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
+}
+.faculty > p, .faculty > h2, .currentphd > p, .currentphd > h2, .currentdoctoral > p, .currentdoctoral > h2, .currentstaff > p, .currentstaff > h2, .nmcadalumni > p, .nmcadalumni > h2 {
+  text-align: center;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 500;
+  margin-bottom: 1rem;
+  position: relative;
+  width: 100%;
 }
 .faculty > p, .currentphd > p, .currentdoctoral > p, .currentstaff > p, .nmcadalumni > p {
-  text-align: start;
-  font-size: clamp(2rem, 4vw, 2.8rem);
   color: white;
   text-decoration: underline;
-  font-weight: 500;
-  margin-bottom: 1rem;
-  position: relative;
 }
 .faculty > h2, .currentphd > h2, .currentdoctoral > h2, .currentstaff > h2, .nmcadalumni > h2 {
-  text-align: start;
-  font-size: clamp(2rem, 4vw, 2.8rem);
   color: #ADC2F9;
-  font-weight: 500;
-  margin-bottom: 1rem;
-  position: relative;
+}
+.faculty ul, .currentphd ul, .currentdoctoral ul, .currentstaff ul, .nmcadalumni ul {
+  width: 100%;
 }
 .faculty ul p, .currentphd ul p, .currentdoctoral ul p, .currentstaff ul p, .nmcadalumni ul p {
-  font-size: 2rem;
+  font-size: clamp(1.6rem, 2.5vw, 2rem);
   color: white;
   margin-bottom: 1rem;
 }
 .faculty ul li, .currentphd ul li, .currentdoctoral ul li, .currentstaff ul li, .nmcadalumni ul li {
   position: relative;
-  padding-left: 2.5rem;
+  padding-left: 2rem;
   line-height: 1.6;
   font-size: clamp(1.4rem, 2.5vw, 1.8rem);
   margin-bottom: 1.5rem;
   color: #A9B4CF;
 }
-
-.interests h2, .sponsored-projects h2, .global h2, .proposed h2 {
-  text-align: start;
-  font-size: clamp(2rem, 4vw, 2.8rem);
-  color: #ADC2F9;
-  margin-bottom: 2rem;
-  position: relative;
-  padding-bottom: 1rem;
+@media (min-width: 768px) {
+  .faculty ul li, .currentphd ul li, .currentdoctoral ul li, .currentstaff ul li, .nmcadalumni ul li {
+    padding-left: 2.5rem;
+  }
 }
 
-.interests, .sponsored-projects, .global, .proposed {
-  width: 100%;
-  margin-bottom: 4rem;
-}
-
-.interests ul, .sponsored-projects ul, .global ul, .proposed ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.interests li, .sponsored-projects li, .global li, .proposed li {
-  position: relative;
-  padding-left: 2.5rem;
-  line-height: 1.6;
-  font-size: clamp(1.4rem, 2.5vw, 1.8rem);
-  margin-bottom: 1.5rem;
-  color: #E0E0E0;
-}
-
-.interests li::before, .sponsored-projects li::before, .global li::before, .proposed li::before {
-  content: "•";
+.bg-ellipse-rg1, .bg-ellipse-rg2 {
   position: absolute;
-  left: 0;
-  color: #ADC2F9;
-  font-size: 2.5rem;
-}
-
-@media (max-width: 768px) {
-  .research-parent {
-    margin-top: 6rem;
-    gap: 3rem;
-  }
-  .academic, .industrial, .interests, .sponsored-projects, .global, .proposed {
-    margin-bottom: 3rem;
-  }
-  .interests li, .sponsored-projects li, .global li, .proposed li {
-    padding-left: 2rem;
-  }
-}
-@media (max-width: 480px) {
-  .research-parent > h1 {
-    font-size: clamp(2rem, 5vw, 3rem);
-  }
-  .academic h2, .industrial h2,
-  .interests h2, .sponsored-projects h2, .global h2, .proposed h2 {
-    font-size: clamp(1.8rem, 4vw, 2.4rem);
-  }
-  .interests li, .sponsored-projects li, .global li, .proposed li {
-    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
-  }
-}
-.bg-ellipse-rg1 {
-  position: absolute;
-  top: 12%;
-  left: -30%;
   width: 100%;
   height: auto;
   z-index: -1;
   pointer-events: none;
+}
+
+.bg-ellipse-rg1 {
+  top: 12%;
+  left: -30%;
+}
+@media (min-width: 768px) {
+  .bg-ellipse-rg1 {
+    left: -20%;
+  }
+}
+@media (min-width: 1024px) {
+  .bg-ellipse-rg1 {
+    left: -10%;
+  }
 }
 
 .bg-ellipse-rg2 {
-  position: absolute;
   top: 30%;
-  width: 300%;
   left: 10%;
-  height: auto;
-  z-index: -1;
+  width: 300%;
   transform: rotate(90deg);
-  pointer-events: none;
+}
+@media (min-width: 768px) {
+  .bg-ellipse-rg2 {
+    width: 200%;
+  }
+}
+@media (min-width: 1024px) {
+  .bg-ellipse-rg2 {
+    width: 150%;
+  }
 }
 
 @keyframes fadeIn {

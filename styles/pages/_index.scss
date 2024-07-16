@@ -91,7 +91,7 @@
   .missions {
     @include section-common;
     @include linear_gradient_bg;
-    margin-top: 3rem;
+    ul li { margin-left: 3rem; }
   }
   
   .enablers {

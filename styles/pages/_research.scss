@@ -81,20 +81,6 @@
     font-size: 2.5rem;
 }
 
-@media (max-width: 768px) {
-    .research-parent {
-        margin-top: 6rem;
-        gap: 3rem;
-    }
-
-    .academic, .industrial, .interests, .sponsored-projects, .global, .proposed {
-        margin-bottom: 3rem;
-    }
-
-    .interests li, .sponsored-projects li, .global li, .proposed li {
-        padding-left: 2rem;
-    }
-}
 
 @media (max-width: 480px) {
     .research-parent > h1 {
