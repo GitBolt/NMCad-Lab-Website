@@ -95,6 +95,7 @@
   }
   
   .enablers {
+    z-index: 10;
     @include section-common;
     ul li { margin-left: 3rem; }
   }
@@ -194,6 +195,7 @@
   .bg-comets {
     position: absolute;
     bottom: -70%;
+    z-index: -1;
     right: 10%;
     max-width: 100%;
     height: auto;
