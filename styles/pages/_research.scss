@@ -1,0 +1,123 @@
+.research-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin: 0rem auto 0rem;
+    padding: 0 5%;
+    max-width: 120rem;
+    margin-top: 10rem;
+    position: relative;
+    z-index: 1;
+}
+
+.research-parent > h1 {
+    font-size: clamp(3rem, 5vw, 5rem);
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.academic, .industrial {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.academic img, .industrial img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+
+
+.academic h2, .industrial h2 {
+    text-align: start;
+    font-size: clamp(2rem, 4vw, 2.8rem);
+    color: #ADC2F9;
+    position: relative;
+    padding-bottom: 1rem;
+}
+.industrial h2 {
+    margin-bottom: -1.5rem;
+}
+
+.interests h2, .sponsored-projects h2, .global h2, .proposed h2 {
+    text-align: start;
+    font-size: clamp(2rem, 4vw, 2.8rem);
+    color: #ADC2F9;
+    margin-bottom: 2rem;
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+
+.interests, .sponsored-projects, .global, .proposed {
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.interests ul, .sponsored-projects ul, .global ul, .proposed ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.interests li, .sponsored-projects li, .global li, .proposed li {
+    position: relative;
+    padding-left: 2.5rem;
+    line-height: 1.6;
+    font-size: clamp(1.4rem, 2.5vw, 1.8rem);
+    margin-bottom: 1.5rem;
+    color: #E0E0E0;
+}
+
+.interests li::before, .sponsored-projects li::before, .global li::before, .proposed li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #ADC2F9;
+    font-size: 2.5rem;
+}
+
+@media (max-width: 768px) {
+    .research-parent {
+        margin-top: 6rem;
+        gap: 3rem;
+    }
+
+    .academic, .industrial, .interests, .sponsored-projects, .global, .proposed {
+        margin-bottom: 3rem;
+    }
+
+    .interests li, .sponsored-projects li, .global li, .proposed li {
+        padding-left: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .research-parent > h1 {
+        font-size: clamp(2rem, 5vw, 3rem);
+    }
+
+    .academic h2, .industrial h2,
+    .interests h2, .sponsored-projects h2, .global h2, .proposed h2 {
+        font-size: clamp(1.8rem, 4vw, 2.4rem);
+    }
+
+    .interests li, .sponsored-projects li, .global li, .proposed li {
+        font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+    }
+}
+
+
+.bg-ellipse-research {
+    position: absolute;
+    top: 12%;
+    left: -30%;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    pointer-events: none;
+  }

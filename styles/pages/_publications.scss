@@ -146,6 +146,18 @@
   display: inline-block;
 }
 
+.pub-location {
+  font-size: clamp(1.4rem, 1.8vw, 1.7rem);
+  color: #AEAED9;
+  margin-top: 0.5rem;
+  font-weight: 400;
+  background-color: rgba(174, 174, 217, 0.1);
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+}
+
+
 .view-link, .pdfbutton {
   background: transparent;
   border: 1px solid #7CA9FF;

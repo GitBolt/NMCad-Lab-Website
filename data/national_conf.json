@@ -1,0 +1,1513 @@
+[
+    {
+        "title": "Structural Analysis of Inflatable Structures",
+        "authors": [
+            "D. Harursampath"
+        ],
+        "extras": "Invited Talk, AICTE ATAL Faculty Development Program",
+        "date": "Dec 13-17, 2021",
+        "location": "MIT, MAHE, Manipal, India"
+    },
+    {
+        "title": "Damage Modeling in Metal Matrix Composite Aircraft Engine Components",
+        "authors": [
+            "D. Harursampath"
+        ],
+        "extras": "Invited Talk, Engineers' Week, Honeywell India Pvt. Ltd.",
+        "date": "Feb 12, 2020",
+        "location": "Bengaluru, India"
+    },
+    {
+        "title": "Damage Micro-Mechanics for the Design of MMC Bladed Rings",
+        "authors": [
+            "D. Harursampath"
+        ],
+        "extras": "Invited Talk, 16th ISAMPE National Conference on Composites (INCCOM-16), Theme: Advanced Composites - Opportunities & Challenges, from Earth to Space",
+        "date": "Sep 20-22, 2019",
+        "location": "Thiruvanantapuram, India"
+    },
+    {
+        "title": "Effective Homogenization of Honeycomb Structure using Variational Asymptotic Method",
+        "authors": [
+            "V. R. S. Kandula",
+            "K. M. S. B. Mohammed",
+            "D. Harursampath"
+        ],
+        "extras": "4th Indian Conference on Applied Mechanics (INCAM 2019), Paper ID: 179",
+        "date": "Jul 3-5, 2019",
+        "location": "J. N. Tata Auditorium, IISc, Bengaluru, India"
+    },
+    {
+        "title": "Mechanical Characterization & Constitutive Modeling of a Compressible Hyperelastic Material",
+        "authors": [
+            "M. K. M. S. Bepari",
+            "A. Chatterjee",
+            "M. R. Bhat",
+            "N. Gundiah",
+            "D. Harursampath"
+        ],
+        "extras": "4th Indian Conference on Applied Mechanics (INCAM 2019), Paper ID: 185",
+        "date": "Jul 3-5, 2019",
+        "location": "J. N. Tata Auditorium, IISc, Bengaluru, India"
+    },
+    {
+        "title": "Spanwise Variation of Chordwise Camber in Low Aspect Ratio Wings at Low Reynolds Number",
+        "authors": [
+            "N. Hebbale",
+            "D. Harursampath"
+        ],
+        "extras": "4th Indian Conference on Applied Mechanics (INCAM 2019), Paper ID: 52",
+        "date": "Jul 3-5, 2019",
+        "location": "J. N. Tata Auditorium, IISc, Bengaluru, India"
+    },
+    {
+        "title": "Asymptotic Analysis of Anisotropic Composite Beam with Multiple Delaminations",
+        "authors": [
+            "P. Puvvala",
+            "D. Harursampath"
+        ],
+        "extras": "4th Indian Conference on Applied Mechanics (INCAM 2019), Paper ID: 38",
+        "date": "Jul 3-5, 2019",
+        "location": "J. N. Tata Auditorium, IISc, Bengaluru, India"
+    },
+    {
+        "title": "Brisk to Bring Blisk to Bling! (B2B)2",
+        "authors": [
+            "D. Harursampath",
+            "M. V. P. Rao",
+            "D. Raj",
+            "J. Thomas"
+        ],
+        "extras": "Invited Talk, 4th Indian Conference on Applied Mechanics (INCAM 2019)",
+        "date": "Jul 3-5, 2019",
+        "location": "J. N. Tata Auditorium, IISc, Bengaluru, India"
+    },
+    {
+        "title": "CNT: Brazier Effect & Instability",
+        "authors": [
+            "D. Harursampath",
+            "S. A. Ponnusami",
+            "M. Gupta"
+        ],
+        "extras": "Plenary Lecture, 4th International Conference on Nanotechnology for Better Living, Theme: Technological Advancements of Polymer Composites, Paper # P135-I016",
+        "date": "Apr 6-7, 2019",
+        "location": "IIT Kanpur, India"
+    },
+    {
+        "title": "Simulation of Composite Structures",
+        "authors": [
+            "D. Harursampath"
+        ],
+        "extras": "Invited Inaugural Lecture, AICTE National Seminar for Lecturers on 'Technological Advancement of Polymer Nanocomposites'",
+        "date": "Apr 4-8, 2019",
+        "location": "IIT Kanpur, India"
+    },
+    {
+        "title": "Impact Damage of Hemispherical Shells Formed by Direct Metal Laser Sintering",
+        "authors": [
+            "K. V. R. Sateesh",
+            "D. Harursampath"
+        ],
+        "extras": "2nd International Conference on Materials Manufacturing & Modelling (ICMMM - 2019)",
+        "date": "Mar 29-31, 2019",
+        "location": "VIT, Vellore, India"
+    },
+    {
+        "title": "Estimation of material properties of Metal Matrix Composites using Finite Element Method in the presence of micromechanics damages",
+        "authors": [
+            "M. V. P. Rao",
+            "D. Raj",
+            "D. Harursampath",
+            "K.Renji"
+        ],
+        "extras": "Sixth International Conference on Recent Advances in Composite Materials (ICRACM-2019), Paper ID: OP-63",
+        "date": "Feb 25-28, 2019",
+        "location": "IIT-BHU, Varanasi, India"
+    },
+    {
+        "title": "The Science behind Aircraft Morphing",
+        "authors": [
+            "D. Harursampath"
+        ],
+        "extras": "Invited Talk, 7th Technology Focus Group Colloquium: Emerging Trends in Aviation Design & Aircraft Morphing, Air Force Technical College",
+        "date": "Nov 16, 2018",
+        "location": "Bengaluru, India"
+    },
+    {
+        "title": "Two-Dimensional Materials for Power Generation",
+        "authors": [
+            "V. Mahalingam",
+            "D. Harursampath"
+        ],
+        "extras": "Poster, Aerospace Research Students Symposium (AERES2018)",
+        "date": "Oct 10-12, 2018",
+        "location": "IISc, Bengaluru, India"
+    },
+    {
+        "title": "Design to Delay/Prevent Debonding of Conventional & Advanced Composite Materials in Multifunctional Applications through Theoretical & Experimental Studies",
+        "authors": [
+            "R. Kaushik",
+            "D. Harursampath"
+        ],
+        "extras": "Poster, Aerospace Research Students Symposium (AERES2018)",
+        "date": "Oct 10-12, 2018",
+        "location": "IISc, Bengaluru, India"
+    },
+    {
+        "title": "Progressive Damage Analysis of Fiber-Reinforced Composite Structures",
+        "authors": [
+            "K. Sahu",
+            "D. Harursampath"
+        ],
+        "extras": "Poster, Aerospace Research Students Symposium (AERES2018)",
+        "date": "Oct 10-12, 2018",
+        "location": "IISc, Bengaluru, India"
+    },
+    {
+        "title": "Impact Damage of Cellular Hemispherical Shells Formed by Direct Metal Laser Sintering",
+        "authors": [
+            "K. V. R. Sateesh",
+            "D. Harursampath"
+        ],
+        "extras": "Aerospace Research Students Symposium (AERES2018)",
+        "date": "Oct 10-12, 2018",
+        "location": "IISc, Bengaluru, India"
+    },
+    {
+        "title": "Constitutive Modeling of Kapton, Nomex & its Composite Films",
+        "authors": [
+            "S. B. M. K. Moinuddin",
+            "M. R. Bhat",
+            "D. Harursampath",
+            "N. Gundiah"
+        ],
+        "extras": "Aerospace Research Students Symposium (AERES2018)",
+        "date": "Oct 10-12, 2018",
+        "location": "IISc, Bengaluru, India"
+    },
+    {
+        "title": "Aramid Fiber Composite Layers for Fan Blade Containment in a Gas Turbine System: Some Experimental Studies",
+        "authors": [
+            "M. R. Bhat",
+            "D. Harursampath",
+            "S. Khatri",
+            "Umesh K."
+        ],
+        "extras": "NCABE, GTRE, DRDO National Aerospace Propulsion Conference (NAPC2018), Abstract No. 52",
+        "date": "Dec 17 - 19, 2018",
+        "location": "IIT Kharagpur, India"
+    },
+    {
+        "title": "Multifunctional Rotorcraft Structures: Benchmarking Capabilities from Nature",
+        "authors": [
+            "D. Harursampath"
+        ],
+        "extras": "American Helicopter Society (AHS) International Bangalore Chapter Quarterly Seminar, Invited talk",
+        "date": "September 11, 2017",
+        "location": "Indian Institute of Science, Bengaluru, India"
+    },
+    {
+        "title": "Multifunctional Rotorcraft Structures: Benchmarking Capabilities from Nature",
+        "authors": [
+            "D. Harursampath"
+        ],
+        "extras": "RWR&DC Technology Day Seminar, Invited talk",
+        "date": "June 3, 2017",
+        "location": "Hindustan Aeronautics Ltd., Bengaluru, India"
+    },
+    {
+        "title": "Structural Analysis of LTA Envelopes",
+        "authors": [
+            "D. Harursampath"
+        ],
+        "extras": "Invited Talk, National Design & Research Forum, The Institution of Engineers (India)'s Two-Day All-India Seminar on \u201cAerostats & Airships\u201d",
+        "date": "Mar 04-05, 2017",
+        "location": "East West College of Engineering, Bengaluru, India"
+    },
+    {
+        "title": "Towards Smart & Multifunctional Next Generation Aerospace Structures",
+        "authors": [
+            "D. Harursampath",
+            "S. A. Ponnusami"
+        ],
+        "extras": "Invited Talk, 19th National Seminar on Aerospace Structures, (XIX NASAS), Session: Sandwich Composites I",
+        "date": "Feb 23-25, 2017",
+        "location": "VIT University, Vellore, TN, India"
+    },
+    {
+        "title": "Design, Fabrication & Flight Testing of Composite Helicopter Rotor Blade",
+        "authors": [
+            "D. R. Abhiram",
+            "R. Ganguli",
+            "D. Harursampath",
+            "M. R. Bhat"
+        ],
+        "extras": "19th National Seminar on Aerospace Structures, (XIX NASAS), Session: Helicopters",
+        "date": "Feb 23-25, 2017",
+        "location": "VIT University, Vellore, TN, India"
+    },
+    {
+        "title": "Research Contributions of IISc & Ongoing studies in Propulsion Engineering",
+        "authors": [
+            "D. Harursampath"
+        ],
+        "extras": "Invited Inaugural Lecture, 1st Technology Focus Group Colloquium: State of the Art & Emerging Trends in Aircraft Propulsion",
+        "date": "July 25, 2016",
+        "location": "Air Force Technical College, Bengaluru, India"
+    },
+    {
+        "title": "High Altitude Airships (HAA) - Multifunctional Structural Analysis & Design using VAM",
+        "authors": [
+            "S. B. M. K. Moinuddin",
+            "M. R. Bhat",
+            "D. Harursampath"
+        ],
+        "extras": "Poster, Aerospace Research Students Symposium, Best poster award winner",
+        "date": "July 11-13, 2016",
+        "location": "IISc, Bengaluru, India"
+    },
+    {
+        "title": "Piezocomposite MAV Wing as Integral Structure & Actuator",
+        "authors": [
+            "S. Agrawal",
+            "D. Harursampath"
+        ],
+        "extras": "Aerospace Research Students Symposium",
+        "date": "July 11-13, 2016",
+        "location": "IISc, Bengaluru, India"
+    },
+    {
+        "title": "NMCAD Lab Research - Achievements & Plans",
+        "authors": [
+            "D. Harursampath"
+        ],
+        "extras": "Invited Lecture, Airbus Global Flight Physics Workshop: Collaboration with Indian Academia",
+        "date": "July 8, 2016",
+        "location": "Airbus India, Bengaluru, India"
+    },
+    {
+        "title": "RVE Homogenization for Curvilinear Metal Matrix Composite Structures",
+        "authors": [
+            "M. Hegde",
+            "D. Harursampath",
+            "S. K. Kumar",
+            "M. V. Kini"
+        ],
+        "extras": "IndACM's 6th International Congress on Computational Mechanics & Simulation (ICCMS-06), Ref. ID 592",
+        "date": "Jun 27-Jul 1, 2016",
+        "location": "Indian Institute of Technology Bombay, Powai, India"
+    },
+    {
+        "title": "Multifunctional Composites for Aircraft Structures",
+        "authors": [
+            "D. Harursampath"
+        ],
+        "extras": "Unmanned Aircraft & Ground Control Technologies Continuous Education Programme, Two-hour Inaugural Lecture",
+        "date": "June 20 - 24, 2016",
+        "location": "Kalam Sabhangan, Aeronautical Development Establishment, Bengaluru, India"
+    },
+    {
+        "authors": [
+            "Shwetha M.",
+            "D. Harursampath",
+            "A. Kumar"
+        ],
+        "title": "Finite Element Modeling of Composite Fabric for Engine Containment Systems",
+        "conference": "Christ University's Technical Conference Magnovite",
+        "location": "Bengaluru",
+        "date": "February 26-27, 2016",
+        "note": "This paper won the 2nd Best Paper Award."
+    },
+    {
+        "authors": [
+            "S. Sreeram",
+            "A. V. Harikrishnan",
+            "D. Harursampath"
+        ],
+        "title": "Effect of Clearance & Pre-Tension in Bolted Composite Laminate Subjected to Constant Axial & Oscillatory Bending Loads",
+        "conference": "Mechanical category, APOGEE 2016",
+        "location": "BITS Pilani, India",
+        "date": "Feb 25-28, 2016"
+    },
+    {
+        "authors": [
+            "D. Harursampath",
+            "M. Gupta",
+            "S. Agrawal",
+            "S. A. Ponnusami",
+            "S. A. Ponnusami",
+            "D. Veerasamy"
+        ],
+        "title": "Design & Analysis of Composite Products",
+        "conference": "Plenary Lecture, TAACMA & FRP Institute's 6th National Conference on Recent Advances in Composites (NCRAC2016)",
+        "location": "Taj Deccan, Hyderabad",
+        "date": "Feb 12-13, 2016"
+    },
+    {
+        "authors": [
+            "D. Harursampath",
+            "M. Gupta",
+            "S. Agrawal",
+            "S. A. Ponnusami",
+            "S. A. Ponnusami",
+            "D. Veerasamy"
+        ],
+        "title": "Multifunctional Composites for Sustainable & Greener Transportation",
+        "conference": "Plenary Lecture, 14th ISAMPE National Conference on Composites (INCCOM-14)",
+        "location": "MAK Resorts' Banyan Tree Retreat, Hyderabad, India",
+        "date": "Jan 22-23, 2016"
+    },
+    {
+        "authors": [
+            "D. Harursampath",
+            "M. Gupta",
+            "S. Agrawal",
+            "S. A. Ponnusami",
+            "S. A. Ponnusami",
+            "D. Veerasamy"
+        ],
+        "title": "Next Generation Composites have already arrived!",
+        "conference": "Keynote Address, Siemens Seminar on Solutions for Innovative Composites Engineering",
+        "location": "Matthan Hotel, Bengaluru, India",
+        "date": "Dec 22, 2015"
+    },
+    {
+        "authors": [
+            "D. R. Abhiram",
+            "R. Mallick",
+            "R. Ganguli",
+            "D. Harursampath"
+        ],
+        "title": "Robust Design of Small-Scale Unmanned Helicopter Main Rotor",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "Keshava Kumar S.",
+            "R. Ganguli",
+            "D. Harursampath"
+        ],
+        "title": "Partial Delamination Detection in Rotating Beam Using Generalized Fractal Dimensions",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "D. R. Abhiram",
+            "Kalaiselvam",
+            "R. Ganguli",
+            "M. Dr Bhat",
+            "D. Harursampath"
+        ],
+        "title": "Design, Analysis & Fabrication of a Composite Main Rotor Blade for Small-scale Unmanned Helicopter",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "S. B. Shylajan",
+            "D. Harursampath",
+            "S. Harursampath"
+        ],
+        "title": "Damage Tolerance of Thin-walled Composite Structures",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "S. T. V. Harsha",
+            "D. Harursampath"
+        ],
+        "title": "Impact of Thermal Residual Stresses on Fatigue Life of Composite Structures",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "S. K. Kumar",
+            "D. Harursampath"
+        ],
+        "title": "Variational Asymptotic Model for Thick Pre-stressed Laminated Composite Plates",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "S. Khatri",
+            "Midhun AJ",
+            "U. Kizhakkinan",
+            "D. Harursampath"
+        ],
+        "title": "Micromechanical Analysis of Thick Woven Fabric Composite RVE's: Asymptotical Approach & Validation",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "R. Kandula",
+            "P. S. Prasad",
+            "D. Harursampath"
+        ],
+        "title": "Estimation of Interlaminar Stresses in Asymmetric Composite Sandwich Panels Under Impact Loading using Variational Asymptotic Method",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "S. Garella",
+            "U. Kizhakkinan",
+            "D. Harursampath"
+        ],
+        "title": "Failure Analysis of Thick Composite Beams: A Comparative Study of Various Failure Theories",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "J. K. Eswaran",
+            "A. Harish",
+            "D. Harursampath"
+        ],
+        "title": "Asymptotic Modelling of a Contact Problem in Thick Composites",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "V. Babar",
+            "D. Harursampath"
+        ],
+        "title": "Finite Element Based Simulation for Fatigue Crack Initiation in Thick Composites",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "M. T. Vinoda",
+            "D. Harursampath"
+        ],
+        "title": "Thick Tapered Composite Beams with Matrix-rich Regions: Reliable Computational Models",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "S. Pothula",
+            "U. Kizhakkinan",
+            "D. Harursampath"
+        ],
+        "title": "Asymptotic Modelling of Mixed Mode Delamination Initiation in Arbitrarily Oriented Composite Laminates",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "D. R. Abhiram",
+            "R. Mallick",
+            "R. Ganguli",
+            "D. Harursampath"
+        ],
+        "title": "Robust Design of Small-Scale Unmanned Helicopter Main Rotor",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "Keshava Kumar S.",
+            "R. Ganguli",
+            "D. Harursampath"
+        ],
+        "title": "Partial Delamination Detection in Rotating Beam Using Generalized Fractal Dimensions",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "D. R. Abhiram",
+            "Kalaiselvam",
+            "R. Ganguli",
+            "M. Dr Bhat",
+            "D. Harursampath"
+        ],
+        "title": "Design, Analysis & Fabrication of a Composite Main Rotor Blade for Small-scale Unmanned Helicopter",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "S. B. Shylajan",
+            "D. Harursampath",
+            "S. Harursampath"
+        ],
+        "title": "Damage Tolerance of Thin-walled Composite Structures",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "S. T. V. Harsha",
+            "D. Harursampath"
+        ],
+        "title": "Impact of Thermal Residual Stresses on Fatigue Life of Composite Structures",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "S. K. Kumar",
+            "D. Harursampath"
+        ],
+        "title": "Variational Asymptotic Model for Thick Pre-stressed Laminated Composite Plates",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "S. Khatri",
+            "Midhun AJ",
+            "U. Kizhakkinan",
+            "D. Harursampath"
+        ],
+        "title": "Micromechanical Analysis of Thick Woven Fabric Composite RVE's: Asymptotical Approach & Validation",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "R. Kandula",
+            "P. S. Prasad",
+            "D. Harursampath"
+        ],
+        "title": "Estimation of Interlaminar Stresses in Asymmetric Composite Sandwich Panels Under Impact Loading using Variational Asymptotic Method",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "S. Garella",
+            "U. Kizhakkinan",
+            "D. Harursampath"
+        ],
+        "title": "Failure Analysis of Thick Composite Beams: A Comparative Study of Various Failure Theories",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "J. K. Eswaran",
+            "A. Harish",
+            "D. Harursampath"
+        ],
+        "title": "Asymptotic Modelling of a Contact Problem in Thick Composites",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "V. Babar",
+            "D. Harursampath"
+        ],
+        "title": "Finite Element Based Simulation for Fatigue Crack Initiation in Thick Composites",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "M. T. Vinoda",
+            "D. Harursampath"
+        ],
+        "title": "Thick Tapered Composite Beams with Matrix-rich Regions: Reliable Computational Models",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "S. Pothula",
+            "U. Kizhakkinan",
+            "D. Harursampath"
+        ],
+        "title": "Asymptotic Modelling of Mixed Mode Delamination Initiation in Arbitrarily Oriented Composite Laminates",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "D. R. Abhiram",
+            "R. Mallick",
+            "R. Ganguli",
+            "D. Harursampath"
+        ],
+        "title": "Robust Design of Small-Scale Unmanned Helicopter Main Rotor",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "Keshava Kumar S.",
+            "R. Ganguli",
+            "D. Harursampath"
+        ],
+        "title": "Partial Delamination Detection in Rotating Beam Using Generalized Fractal Dimensions",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "D. R. Abhiram",
+            "Kalaiselvam",
+            "R. Ganguli",
+            "M. Dr Bhat",
+            "D. Harursampath"
+        ],
+        "title": "Design, Analysis & Fabrication of a Composite Main Rotor Blade for Small-scale Unmanned Helicopter",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "S. B. Shylajan",
+            "D. Harursampath",
+            "S. Harursampath"
+        ],
+        "title": "Damage Tolerance of Thin-walled Composite Structures",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "S. T. V. Harsha",
+            "D. Harursampath"
+        ],
+        "title": "Impact of Thermal Residual Stresses on Fatigue Life of Composite Structures",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "S. K. Kumar",
+            "D. Harursampath"
+        ],
+        "title": "Variational Asymptotic Model for Thick Pre-stressed Laminated Composite Plates",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "S. Khatri",
+            "Midhun AJ",
+            "U. Kizhakkinan",
+            "D. Harursampath"
+        ],
+        "title": "Micromechanical Analysis of Thick Woven Fabric Composite RVE's: Asymptotical Approach & Validation",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "R. Kandula",
+            "P. S. Prasad",
+            "D. Harursampath"
+        ],
+        "title": "Estimation of Interlaminar Stresses in Asymmetric Composite Sandwich Panels Under Impact Loading using Variational Asymptotic Method",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "Shwetha M.",
+            "D. Harursampath",
+            "A. Kumar"
+        ],
+        "title": "Finite Element Modeling of Composite Fabric for Engine Containment Systems",
+        "conference": "Christ University's Technical Conference Magnovite",
+        "location": "Bengaluru, India",
+        "date": "February 26-27, 2016",
+        "award": "2nd Best Paper Award"
+    },
+    {
+        "authors": [
+            "S. Sreeram",
+            "A. V. Harikrishnan",
+            "D. Harursampath"
+        ],
+        "title": "Effect of Clearance & Pre-Tension in Bolted Composite Laminate Subjected to Constant Axial & Oscillatory Bending Loads",
+        "conference": "Mechanical category, APOGEE 2016",
+        "location": "BITS Pilani, India",
+        "date": "Feb 25-28, 2016"
+    },
+    {
+        "authors": [
+            "D. Harursampath",
+            "M. Gupta",
+            "S. Agrawal",
+            "S. A. Ponnusami",
+            "S. A. Ponnusami",
+            "D. Veerasamy"
+        ],
+        "title": "Design & Analysis of Composite Products",
+        "conference": "Plenary Lecture, TAACMA & FRP Institute's 6th National Conference on Recent Advances in Composites (NCRAC2016)",
+        "location": "Taj Deccan, Hyderabad, India",
+        "date": "Feb 12-13, 2016"
+    },
+    {
+        "authors": [
+            "D. Harursampath",
+            "M. Gupta",
+            "S. Agrawal",
+            "S. A. Ponnusami",
+            "S. A. Ponnusami",
+            "D. Veerasamy"
+        ],
+        "title": "Multifunctional Composites for Sustainable & Greener Transportation",
+        "conference": "Plenary Lecture, 14th ISAMPE National Conference on Composites (INCCOM-14)",
+        "location": "MAK Resorts' Banyan Tree Retreat, Hyderabad, India",
+        "date": "Jan 22-23, 2016"
+    },
+    {
+        "authors": [
+            "D. Harursampath",
+            "M. Gupta",
+            "S. Agrawal",
+            "S. A. Ponnusami",
+            "S. A. Ponnusami",
+            "D. Veerasamy"
+        ],
+        "title": "Next Generation Composites have already arrived!",
+        "conference": "Keynote Address, Siemens Seminar on Solutions for Innovative Composites Engineering",
+        "location": "Matthan Hotel, Bengaluru, India",
+        "date": "Dec 22, 2015"
+    },
+    {
+        "authors": [
+            "D. R. Abhiram",
+            "R. Mallick",
+            "R. Ganguli",
+            "D. Harursampath"
+        ],
+        "title": "Robust Design of Small-Scale Unmanned Helicopter Main Rotor",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "Keshava Kumar S.",
+            "R. Ganguli",
+            "D. Harursampath"
+        ],
+        "title": "Partial Delamination Detection in Rotating Beam Using Generalized Fractal Dimensions",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "D. R. Abhiram",
+            "Kalaiselvam",
+            "R. Ganguli",
+            "M. Dr Bhat",
+            "D. Harursampath"
+        ],
+        "title": "Design, Analysis & Fabrication of a Composite Main Rotor Blade for Small-scale Unmanned Helicopter",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "S. B. Shylajan",
+            "D. Harursampath",
+            "S. Harursampath"
+        ],
+        "title": "Damage Tolerance of Thin-walled Composite Structures",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "S. T. V. Harsha",
+            "D. Harursampath"
+        ],
+        "title": "Impact of Thermal Residual Stresses on Fatigue Life of Composite Structures",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "S. K. Kumar",
+            "D. Harursampath"
+        ],
+        "title": "Variational Asymptotic Model for Thick Pre-stressed Laminated Composite Plates",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "S. Khatri",
+            "Midhun AJ",
+            "U. Kizhakkinan",
+            "D. Harursampath"
+        ],
+        "title": "Micromechanical Analysis of Thick Woven Fabric Composite RVE's: Asymptotical Approach & Validation",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "R. Kandula",
+            "P. S. Prasad",
+            "D. Harursampath"
+        ],
+        "title": "Estimation of Interlaminar Stresses in Asymmetric Composite Sandwich Panels Under Impact Loading using Variational Asymptotic Method",
+        "conference": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "location": "Bengaluru, India",
+        "date": "Nov 16-18, 2015"
+    },
+    {
+        "authors": [
+            "Shwetha M.",
+            "D. Harursampath",
+            "A. Kumar"
+        ],
+        "title": "Finite Element Modeling of Composite Fabric for Engine Containment Systems",
+        "conference": "Christ University's Technical Conference Magnovite",
+        "location": "Bengaluru, India",
+        "date": "February 26-27, 2016",
+        "award": "2nd Best Paper Award"
+    },
+    {
+        "authors": [
+            "S. Sreeram",
+            "A. V. Harikrishnan",
+            "D. Harursampath"
+        ],
+        "title": "Effect of Clearance & Pre-Tension in Bolted Composite Laminate Subjected to Constant Axial & Oscillatory Bending Loads",
+        "conference": "Mechanical category, APOGEE 2016",
+        "location": "BITS Pilani, India",
+        "date": "Feb 25-28, 2016"
+    },
+    {
+        "authors": [
+            "D. Harursampath",
+            "M. Gupta",
+            "S. Agrawal",
+            "S. A. Ponnusami",
+            "S. A. Ponnusami",
+            "D. Veerasamy"
+        ],
+        "title": "Design & Analysis of Composite Products",
+        "conference": "Plenary Lecture, TAACMA & FRP Institute's 6th National Conference on Recent Advances in Composites (NCRAC2016)",
+        "location": "Taj Deccan, Hyderabad, India",
+        "date": "Feb 12-13, 2016"
+    },
+    {
+        "authors": [
+            "D. Harursampath",
+            "M. Gupta",
+            "S. Agrawal",
+            "S. A. Ponnusami",
+            "S. A. Ponnusami",
+            "D. Veerasamy"
+        ],
+        "title": "Multifunctional Composites for Sustainable & Greener Transportation",
+        "conference": "Plenary Lecture, 14th ISAMPE National Conference on Composites (INCCOM-14)",
+        "location": "MAK Resorts' Banyan Tree Retreat, Hyderabad, India",
+        "date": "Jan 22-23, 2016"
+    },
+    {
+        "authors": [
+            "D. Harursampath",
+            "M. Gupta",
+            "S. Agrawal",
+            "S. A. Ponnusami",
+            "S. A. Ponnusami",
+            "D. Veerasamy"
+        ],
+        "title": "Next Generation Composites have already arrived!",
+        "conference": "Keynote Address, Siemens Seminar on Solutions for Innovative Composites Engineering",
+        "location": "Matthan Hotel, Bengaluru, India",
+        "date": "Dec 22, 2015"
+    },
+    {
+        "title": "Robust Design of Small-Scale Unmanned Helicopter Main Rotor",
+        "authors": [
+            "D. R. Abhiram",
+            "R. Mallick",
+            "R. Ganguli",
+            "D. Harursampath"
+        ],
+        "extras": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "date": "Nov 16-18, 2015",
+        "location": "Bengaluru, India"
+    },
+    {
+        "title": "Partial Delamination Detection in Rotating Beam Using Generalized Fractal Dimensions",
+        "authors": [
+            "Keshava Kumar S.",
+            "R. Ganguli",
+            "D. Harursampath"
+        ],
+        "extras": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "date": "Nov 16-18, 2015",
+        "location": "Bengaluru, India"
+    },
+    {
+        "title": "Design, Analysis & Fabrication of a Composite Main Rotor Blade for Small-scale Unmanned Helicopter",
+        "authors": [
+            "D. R. Abhiram",
+            "Kalaiselvam",
+            "R. Ganguli",
+            "M. Dr Bhat",
+            "D. Harursampath"
+        ],
+        "extras": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "date": "Nov 16-18, 2015",
+        "location": "Bengaluru, India"
+    },
+    {
+        "title": "Wrinkling Analysis of Polyurethane Tape under Tensile Loads",
+        "authors": [
+            "S. B. M. K. Moinuddin",
+            "M. R. Bhat",
+            "D. Harursampath"
+        ],
+        "extras": "American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF), Theme: Global Rotorcraft Technological Advancements",
+        "date": "Nov 16-18, 2015",
+        "location": "Bengaluru, India"
+    },
+    {
+        "title": "Towards Less Hungry Helicopters",
+        "authors": [
+            "D. Harursampath",
+            "M. Gupta",
+            "S. Agrawal",
+            "S. A. Ponnusami",
+            "D. Veerasamy"
+        ],
+        "extras": "Keynote Address, American Helicopter Society (AHS) International's 4th Asian-Australian Rotorcraft Forum (ARF)",
+        "date": "Nov 16-18, 2015",
+        "location": "Bengaluru, India"
+    },
+    {
+        "title": "A Multifunctional Composite System for Aerospace Structures - An Investigation of Energy Recycling & Storage Characteristics",
+        "authors": [
+            "D. Harursampath"
+        ],
+        "extras": "Airbus International \u201cLink the Top\u201d Banquet Keynote Address",
+        "date": "Oct 26-29, 2015",
+        "location": "ITC Windsor, Bengaluru, India"
+    },
+    {
+        "title": "Airbus Fly Your Ideas & Me",
+        "authors": [
+            "D. Harursampath"
+        ],
+        "extras": "Airbus International \u201cLink the Top\u201d Inaugural Address",
+        "date": "Oct 26-29, 2015",
+        "location": "CeNSE, IISc, Bengaluru, India"
+    },
+    {
+        "title": "A Multifunctional NanoComposite System for Aerospace Structures - An Investigation of Energy Recycling & Storage Characteristics",
+        "authors": [
+            "D. Harursampath",
+            "S. A. Ponnusami",
+            "S. Agrawal",
+            "M. Gupta",
+            "D. Veerasamy"
+        ],
+        "extras": "IEEE Workshop on NanoTechnology",
+        "date": "Nov 16-18, 2015",
+        "location": "Bengaluru, India"
+    },
+    {
+        "title": "Development of a Dimensionally-reduced Model for a Multilayered Multi-elastic Structure using the Variational Asymptotic Method (VAM)",
+        "authors": [
+            "A. Krishnan",
+            "D. Harursampath"
+        ],
+        "extras": "Aeronautical Society Of India (AeSI)'s National Conference on Recent Trends in Aerospace Systems Integration & Testing (ASET 2015)",
+        "date": "May 1-2, 2015",
+        "location": "ISRO Propulsion Complex (IPRC), Mahendragiri, India"
+    },
+    {
+        "title": "High voltage power electronic drive circuit for flapping wing MAV",
+        "authors": [
+            "V. J. Krishnan",
+            "D. Harursampath"
+        ],
+        "extras": "Proceedings, IEEE 4th International Conference on Computation of Power, Energy, Information & Communication (ICCPEIC 2015), Paper ID APEC/PE/015/2015, pp. 524-527",
+        "date": "Apr 22-23, 2015",
+        "location": "Adhiparasakthi Engineering College, Melmaruvathur, India"
+    },
+    {
+        "title": "Effect of Pre-tension in Bolted Composite Laminates subjected to Constant Axial & Oscillatory Bending Loads",
+        "authors": [
+            "S. Sreeram",
+            "A. V. Harikrishnan",
+            "D. Harursampath"
+        ],
+        "extras": "Proceedings, International Conference on Advances in Materials, Manufacturing & Applications (AmmA - 2015), Paper # AmmA432",
+        "date": "Apr 9-11, 2015",
+        "location": "NIT, Trichy, India"
+    },
+    {
+        "title": "Computational Modeling of Resin Flow during Composite Manufacturing Process using VAM",
+        "authors": [
+            "Jobin K. J.",
+            "D. Harursampath"
+        ],
+        "extras": "6th International Conference on Theoretical, Applied, Computational & Experimental Mechanics (ICTACEM), Paper # 303, pp. 390-1",
+        "date": "Dec 29-31, 2014",
+        "location": "IIT Kharagpur, India"
+    },
+    {
+        "title": "Analysis of Tapered Composite Beam under Fatigue Loading using Variational Asymptotic Method",
+        "authors": [
+            "Megha T. V.",
+            "D. Harursampath"
+        ],
+        "extras": "6th International Conference on Theoretical, Applied, Computational & Experimental Mechanics (ICTACEM), Paper # 324, pp. 422-3",
+        "date": "Dec 29-31, 2014",
+        "location": "IIT Kharagpur, India"
+    },
+    {
+        "title": "Power Electronic Voltage Amplifier for Piezoelectric Actuation in Flapping-Wing Micro Air Vehicles",
+        "authors": [
+            "D. Harursampath",
+            "S. Agrawal",
+            "G. Yengera",
+            "R. Arvind"
+        ],
+        "extras": "Submitted, 2nd IEEE International Conference on Emerging Electronics: Materials to Devices, Paper # 1570021647",
+        "date": "Dec 3-6, 2014",
+        "location": "IISc, Bengaluru, India"
+    },
+    {
+        "title": "Recent advances in design of composite beams for fatigue performance",
+        "authors": [
+            "D. Harursampath"
+        ],
+        "extras": "Invited Talk, ISAMPE National Conference on Composites (INCCOM-13)",
+        "date": "Nov 13-14, 2014",
+        "location": "Thiruvananthapuram, India"
+    },
+    {
+        "title": "Piezocomposite MAV Wing as Integral Structure & Actuator",
+        "authors": [
+            "S. Agrawal",
+            "D. Harursampath"
+        ],
+        "extras": "CSIR-NAL & DRDO-ADE's Compendium on Advances in MICAVs in India (supported by AR&DB & DST)",
+        "date": "Jan 6, 2014",
+        "location": "Bengaluru, India"
+    },
+    {
+        "title": "Study of Optical Fibers for Strain & Temperature Measurements in Composites",
+        "authors": [
+            "A. Moses",
+            "D. Harursampath"
+        ],
+        "extras": "12th ISAMPE National Conference on Composites (INCCOM-12), Theme: \u201cAerospace composites for 2025 - Challenges in design & manufacturing\u201d",
+        "date": "Dec 12-13, 2013",
+        "location": "HAL Convention Centre, Bangalore, India"
+    },
+    {
+        "title": "Design of a Self-actuated Piezocomposite Flapping Wing",
+        "authors": [
+            "S. Agrawal",
+            "D. Harursampath"
+        ],
+        "extras": "12th ISAMPE National Conference on Composites (INCCOM-12), Theme: \u201cAerospace composites for 2025 - Challenges in design & manufacturing\u201d",
+        "date": "Dec 12-13, 2013",
+        "location": "HAL Convention Centre, Bangalore, India"
+    },
+    {
+        "title": "Variational Asymptotic Method applied to Dimensional Reduction of Non-linear Multifunctional Film Fabric Laminates",
+        "authors": [
+            "A. Kshirsagar",
+            "D. Harursampath",
+            "R. G. Burela"
+        ],
+        "extras": "Poster, Research Symposium",
+        "date": "Aug 2013",
+        "location": "IIT-Mumbai, Powai, India"
+    },
+    {
+        "title": "Hybrid Composite Shell Modeling for Morphing Application",
+        "authors": [
+            "K. Kumar",
+            "D. Harursampath"
+        ],
+        "extras": "CSIR National Seminar on 'Mechanics, Processing & Characterization of High Performance Hybrid Composite Materials'",
+        "date": "Aug 23-24, 2013",
+        "location": "Coimbatore, India"
+    },
+    {
+        "title": "Hybrid Composites - Introduction, Applications & Reliable Modeling",
+        "authors": [
+            "D. Harursampath"
+        ],
+        "extras": "Inaugural Keynote Address, CSIR National Seminar on 'Mechanics, Processing & Characterization of High Performance Hybrid Composite Materials'",
+        "date": "Aug 23-24, 2013",
+        "location": "Coimbatore, India"
+    },
+    {
+        "title": "Multi-Objective Configuration & Multi-Functional Laminate Modeling of HAA",
+        "authors": [
+            "D. Harursampath",
+            "R. Gupta"
+        ],
+        "extras": "High Altitude Airship Research Initiative (HAARI): A Two-day Workshop, Aeronautics R&D Board Meeting",
+        "date": "Apr 3-4, 2013",
+        "location": "Angsana Resorts & Spa, Bangalore, India"
+    },
+    {
+        "title": "Optimal Sizing & Placement Of Inflatable Stiffeners In High Altitude Airships",
+        "authors": [
+            "J. Thomas",
+            "J. Karthikeyan",
+            "R. G. Burela",
+            "D. Harursampath"
+        ],
+        "extras": "High Altitude Airship Research Initiative (HAARI): A Two-day Workshop, Aeronautics R&D Board Meeting",
+        "date": "Apr 3-4, 2013",
+        "location": "Angsana Resorts & Spa, Bangalore, India"
+    },
+    {
+        "title": "Computationally Efficient yet Accurate Analysis of Composite Plate",
+        "authors": [
+            "M. M. Banker",
+            "D. Harursampath",
+            "G. N. Naik",
+            "B. Ramesh Gupta"
+        ],
+        "extras": "ISAMPE National Conference on Composites (INCCOM 10) - New Horizons in Cost-Effective Composites",
+        "date": "Nov 18-19, 2011",
+        "location": "Research & Development Establishment (Engineers), Pune, India"
+    },
+    {
+        "title": "Evaluation of Strength of Component-Laminates in Strip-based Mechanisms",
+        "authors": [
+            "H. Pollayi",
+            "D. Harursampath"
+        ],
+        "extras": "8th International Conference on Multi Body Dynamics (ICMBD)",
+        "date": "Feb 24-26, 2011",
+        "location": "KL University, Vijaywada, India"
+    },
+    {
+        "title": "Reliable Modeling of Three Types of Advanced Materials for Integral Structure-Power-Actuation of MAV",
+        "authors": [
+            "D. Harursampath"
+        ],
+        "extras": "All India Seminar on Micro & Nano Air Vehicles",
+        "date": "Aug 18-20, 2010",
+        "location": "NDRF, Bangalore, India"
+    },
+    {
+        "title": "Stress Analysis of Composite Honeycomb Sandwich Panels using the Variational Asymptotic Method",
+        "authors": [
+            "M. V. P. Rao",
+            "K. Renji",
+            "D. Harursampath"
+        ],
+        "extras": "ISAMPE National Conference on Composites (INCCOM-8), pp. 196-204",
+        "date": "Dec 4-5, 2009",
+        "location": "Thiruvananthapuram, India"
+    },
+    {
+        "title": "Matrix Cracking in Ceramic Matrix Composites",
+        "authors": [
+            "V. Viswanath",
+            "D. Harursampath"
+        ],
+        "extras": "ISAMPE National Conference on Composites (INCCOM-8), pp. 365-372",
+        "date": "Dec 4-5, 2009",
+        "location": "Thiruvananthapuram, India"
+    },
+    {
+        "title": "Overview of Advanced Analysis Techniques for Composites",
+        "authors": [
+            "D. Harursampath"
+        ],
+        "extras": "PLENARY LECTURE, ISAMPE National Conference on Composites (INCCOM-8)",
+        "date": "Dec 4-5, 2009",
+        "location": "Thiruvananthapuram, India"
+    },
+    {
+        "title": "Asymptotic Analysis of Composite Cylinder Model",
+        "authors": [
+            "S. S. Padhee",
+            "D. Harursampath"
+        ],
+        "extras": "Proceedings, IISc Centenary International Conference & Exhibition on Aerospace Engineering (ICEAE-09), Paper # GN-104. pp. 1991-1996",
+        "date": "May 18-22, 2009",
+        "location": "Bangalore, India"
+    },
+    {
+        "title": "Analytic Sensitivity of Dynamics of Anisotropic Flexible Four-Bar Mechanisms to Stacking Sequences",
+        "authors": [
+            "H. Pollayi",
+            "D. Harursampath"
+        ],
+        "extras": "Proceedings, IISc Centenary International Conference & Exhibition on Aerospace Engineering (ICEAE-09), Paper # GN-124. pp. 837-847",
+        "date": "May 18-22, 2009",
+        "location": "Bangalore, India"
+    },
+    {
+        "title": "Asymptotically Accurate Non-linear Elastic Constitutive Model with NURBS based Finite Element Analysis of Membrane Structures",
+        "authors": [
+            "R. G. Burela",
+            "D. Harursampath"
+        ],
+        "extras": "Proceedings, IISc Centenary International Conference & Exhibition on Aerospace Engineering (ICEAE-09), Paper # GN-138. pp. 797-803",
+        "date": "May 18-22, 2009",
+        "location": "Bangalore, India"
+    },
+    {
+        "title": "Modeling of an Aircraft Skin with Cutout Repaired by a Bonded Composite Patch using Variational Asymptotic Method",
+        "authors": [
+            "H. Sreedhara",
+            "D. Harursampath"
+        ],
+        "extras": "National Conference on Computer Aided Modeling & Simulation in Computational Mechanics (CAMSCM 2009), Paper #16",
+        "date": "Mar 13-14, 2009",
+        "location": "North Eastern Regional Institute of Science & Technology (NERIST), Nirjuli, Arunachal Pradesh, India"
+    },
+    {
+        "title": "Analytic Sensitivity of Stacking Sequences on Dynamics of Anisotropic Flexible Four-Bar Mechanisms",
+        "authors": [
+            "H. Pollayi",
+            "D. Harursampath"
+        ],
+        "extras": "National Conference on Computer Aided Modeling & Simulation in Computational Mechanics (CAMSCM 2009), Paper #13",
+        "date": "Mar 13-14, 2009",
+        "location": "North Eastern Regional Institute of Science & Technology (NERIST), Nirjuli, Arunachal Pradesh, India"
+    },
+    {
+        "title": "Asymptotically Accurate Nonlinear Elastic Constitutive Model with NURBS based Finite Element Analysis of Membrane Structures",
+        "authors": [
+            "R. G. Burela",
+            "D. Harursampath"
+        ],
+        "extras": "National Conference on Computer Aided Modeling & Simulation in Computational Mechanics (CAMSCM 2009), Paper #12",
+        "date": "Mar 13-14, 2009",
+        "location": "North Eastern Regional Institute of Science & Technology (NERIST), Nirjuli, Arunachal Pradesh, India"
+    },
+    {
+        "title": "Randomness in Composites: A Numerical Study",
+        "authors": [
+            "S. S. Padhee",
+            "D. Harursampath"
+        ],
+        "extras": "National Conference on Computer Aided Modeling & Simulation in Computational Mechanics (CAMSCM 2009), Paper #11",
+        "date": "Mar 13-14, 2009",
+        "location": "North Eastern Regional Institute of Science & Technology (NERIST), Nirjuli, Arunachal Pradesh, India"
+    },
+    {
+        "title": "Micro-mechanical Tailoring of Composite Structure for Optimum Material Properties",
+        "authors": [
+            "S. S. Padhee",
+            "D. Harursampath"
+        ],
+        "extras": "Proceedings, 7th ISAMPE National Conference on Composites (INCCOM7)",
+        "date": "Dec 4-5, 2008",
+        "location": "NAL, Bangalore, India"
+    },
+    {
+        "title": "Analysis of Multifunctional Composites",
+        "authors": [
+            "D. Harursampath"
+        ],
+        "extras": "INVITED Paper, 7th ISAMPE National Conference on Composites (INCCOM7)",
+        "date": "Dec 4-5, 2008",
+        "location": "NAL, Bangalore, India"
+    },
+    {
+        "title": "Characterization of Materials for MAV Applications",
+        "authors": [
+            "D. Harursampath"
+        ],
+        "extras": "INVITED Paper, INDUS MAV '08",
+        "date": "Nov 13-14, 2008",
+        "location": "NAL & ADE, Bangalore, India"
+    },
+    {
+        "title": "A Promising Direction for Future Composites",
+        "authors": [
+            "D. Harursampath"
+        ],
+        "extras": "INVITED LECTURE, Advanced Systems Lab",
+        "date": "Sep 8, 2008",
+        "location": "Hyderabad, India"
+    },
+    {
+        "title": "Fully Comprehensive Geometrically Non-Linear Dynamic Analysis of Multi-Body Beam Systems with Elastic Couplings",
+        "authors": [
+            "H. Pollayi",
+            "D. Harursampath"
+        ],
+        "extras": "Proceedings, 13th National Conference on Mechanisms & Machines (NaCoMM-2007), Paper # NaCoMM-2007-96",
+        "date": "Dec 12-13, 2007",
+        "location": "IISc, Bangalore, India"
+    },
+    {
+        "title": "Effect of Randomness in Representative Volume Element Size for Fiber Reinforced Composites: A Numerical Study",
+        "authors": [
+            "S. S. Padhee",
+            "D. Harursampath"
+        ],
+        "extras": "Proceedings, ISAMPE International & INCCOM-6 Conference on Future Trends in Composite Materials & Processing",
+        "date": "Dec 12-14, 2007",
+        "location": "IIT, Kanpur, India"
+    },
+    {
+        "title": "Multifunctional Composites - A New Paradigm",
+        "authors": [
+            "D. Harursampath"
+        ],
+        "extras": "INVITED Paper, ISAMPE International & INCCOM-6 Conference on Future Trends in Composite Materials & Processing",
+        "date": "Dec 12-14, 2007",
+        "location": "IIT, Kanpur, India"
+    },
+    {
+        "title": "Fully Comprehensive Geometrically Non-Linear Dynamic Analysis of Multi-Body Beam Systems",
+        "authors": [
+            "H. Pollayi",
+            "D. Harursampath"
+        ],
+        "extras": "Proceedings, Engineering Design.in-2007",
+        "date": "Aug 9-11, 2007",
+        "location": "IISc, Bangalore, India"
+    },
+    {
+        "title": "Multifunctional Composites for Aerospace Structures",
+        "authors": [
+            "D. Harursampath"
+        ],
+        "extras": "Aero-Mechanical System Design, Aeronautical Development Establishment, DRDO",
+        "date": "Jul 9, 2007",
+        "location": "Bangalore, India"
+    },
+    {
+        "title": "Asymptotically Accurate Non-linear Analysis of Inflatable Structures",
+        "authors": [
+            "B. RameshGupta",
+            "D. Harursampath"
+        ],
+        "extras": "Proceedings, IndACM's 2nd International Congress on Computational Mechanics & Simulation (ICCMS-06)",
+        "date": "Dec 8-10, 2006",
+        "location": "Indian Institute of Technology, Guwahati, India"
+    },
+    {
+        "title": "Comprehensive Non-linear Analysis of Dynamics of Multi-body Systems involving Anisotropic Elastic Members: Validations",
+        "authors": [
+            "P. Hemaraju",
+            "D. Harursampath"
+        ],
+        "extras": "Proceedings, IndACM's 2nd International Congress on Computational Mechanics & Simulation (ICCMS-06), Paper # A111",
+        "date": "Dec 8-10, 2006",
+        "location": "Indian Institute of Technology, Guwahati, India"
+    },
+    {
+        "title": "Active Fiber Composites: General Theory & Applications",
+        "authors": [
+            "D. Harursampath"
+        ],
+        "extras": "INVITED Paper, Frontiers of Aerospace Structures Technologies (FAST'06)",
+        "date": "Jan 11, 2006",
+        "location": "Thiruvananthapuram, India"
+    },
+    {
+        "title": "Cross-sectional Stiffness Degradation due to Symmetric Free-Edge Delamination in an Anisotropic Strip",
+        "authors": [
+            "P. J. Guruprasad",
+            "D. Harursampath"
+        ],
+        "extras": "International Conference on Computational & Experimental Engineering & Sciences, Paper # ICCES0520050714270",
+        "date": "Dec 1-6, 2005",
+        "location": "Chennai, India"
+    },
+    {
+        "title": "Failure Analysis of Active Drive Shafts",
+        "authors": [
+            "A. K. Tamrakar",
+            "P. Kumar",
+            "D. Harursampath"
+        ],
+        "extras": "Proceedings, IndACM's International Congress on Computational Mechanics & Simulation (ICCMS-04)",
+        "date": "Dec 9-12, 2004",
+        "location": "Indian Institute of Technology, Kanpur, India"
+    },
+    {
+        "title": "Critical Speeds of Composite Drive Shafts under Non-Linear Bending",
+        "authors": [
+            "P. Kumar",
+            "D. Harursampath"
+        ],
+        "extras": "Proceedings, Australian Cooperative Research Center on Integrated Engineering Asset Management (CIEAM)'s Asia-Pacific Conference on System Integrity & Maintenance (ACSIM) & Vibration Engineering & Technology of Machinery (VETOMAC)",
+        "date": "Dec 6-9, 2004",
+        "location": "New Delhi, India"
+    },
+    {
+        "title": "Need for Large Deformation Non-Classical Non-Linear Theory for Damage Diagnostics",
+        "authors": [
+            "P. J. Guruprasad",
+            "N. L. Ravikumar",
+            "P. P. Paulson",
+            "D. Harursampath"
+        ],
+        "extras": "Proceedings, 8th International Symposium on IMPLAST 2003, Plasticity & Impact Mechanics, pp. 52-58",
+        "date": "Mar 16-19, 2003",
+        "location": "New Delhi, India"
+    },
+    {
+        "title": "Non-Classical Effects in Non-Linear Analysis of Thin-Walled Anisotropic Box-Beams",
+        "authors": [
+            "S. Roy",
+            "D. Harursampath"
+        ],
+        "extras": "Proceedings, 47th Congress of Indian Society of Theoretical & Applied Mechanics (ISTAM)- An International Meet",
+        "date": "Dec 23-26, 2002",
+        "location": "Indian Institute of Technology, Guwahati, India"
+    }
+]

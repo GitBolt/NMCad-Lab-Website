@@ -540,6 +540,17 @@ hr {
   display: inline-block;
 }
 
+.pub-location {
+  font-size: clamp(1.4rem, 1.8vw, 1.7rem);
+  color: #AEAED9;
+  margin-top: 0.5rem;
+  font-weight: 400;
+  background-color: rgba(174, 174, 217, 0.1);
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+}
+
 .view-link, .pdfbutton {
   background: transparent;
   border: 1px solid #7CA9FF;
@@ -679,13 +690,11 @@ hr {
 }
 
 .bg-ellipse {
-  position: fixed;
+  position: absolute;
   top: 0;
-  right: 0;
+  right: -30%;
   width: 100%;
   height: auto;
-  max-width: 60%;
-  opacity: 0.1;
   z-index: -1;
   pointer-events: none;
 }
@@ -709,5 +718,390 @@ hr {
   }
   .bg-ellipse {
     max-width: 100%;
+  }
+}
+.research-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  margin: 0rem auto 0rem;
+  padding: 0 5%;
+  max-width: 120rem;
+  margin-top: 10rem;
+  position: relative;
+  z-index: 1;
+}
+
+.research-parent > h1 {
+  font-size: clamp(3rem, 5vw, 5rem);
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.academic, .industrial {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.academic img, .industrial img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.academic h2, .industrial h2 {
+  text-align: start;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  color: #ADC2F9;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.industrial h2 {
+  margin-bottom: -1.5rem;
+}
+
+.interests h2, .sponsored-projects h2, .global h2, .proposed h2 {
+  text-align: start;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  color: #ADC2F9;
+  margin-bottom: 2rem;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.interests, .sponsored-projects, .global, .proposed {
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.interests ul, .sponsored-projects ul, .global ul, .proposed ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.interests li, .sponsored-projects li, .global li, .proposed li {
+  position: relative;
+  padding-left: 2.5rem;
+  line-height: 1.6;
+  font-size: clamp(1.4rem, 2.5vw, 1.8rem);
+  margin-bottom: 1.5rem;
+  color: #E0E0E0;
+}
+
+.interests li::before, .sponsored-projects li::before, .global li::before, .proposed li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #ADC2F9;
+  font-size: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .research-parent {
+    margin-top: 6rem;
+    gap: 3rem;
+  }
+  .academic, .industrial, .interests, .sponsored-projects, .global, .proposed {
+    margin-bottom: 3rem;
+  }
+  .interests li, .sponsored-projects li, .global li, .proposed li {
+    padding-left: 2rem;
+  }
+}
+@media (max-width: 480px) {
+  .research-parent > h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+  }
+  .academic h2, .industrial h2,
+  .interests h2, .sponsored-projects h2, .global h2, .proposed h2 {
+    font-size: clamp(1.8rem, 4vw, 2.4rem);
+  }
+  .interests li, .sponsored-projects li, .global li, .proposed li {
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+  }
+}
+.bg-ellipse-research {
+  position: absolute;
+  top: 12%;
+  left: -30%;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.researchgroup-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  margin: 0rem auto 0rem;
+  padding: 0 5%;
+  max-width: 120rem;
+  margin-top: 10rem;
+  position: relative;
+  z-index: 1;
+}
+
+.researchgroup-parent > h1 {
+  font-size: clamp(3rem, 5vw, 5rem);
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.faculty, .currentphd, .currentdoctoral, .currentstaff, .nmcadalumni {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+.faculty > p, .currentphd > p, .currentdoctoral > p, .currentstaff > p, .nmcadalumni > p {
+  text-align: start;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  color: white;
+  text-decoration: underline;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  position: relative;
+}
+.faculty > h2, .currentphd > h2, .currentdoctoral > h2, .currentstaff > h2, .nmcadalumni > h2 {
+  text-align: start;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  color: #ADC2F9;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  position: relative;
+}
+.faculty ul p, .currentphd ul p, .currentdoctoral ul p, .currentstaff ul p, .nmcadalumni ul p {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+.faculty ul li, .currentphd ul li, .currentdoctoral ul li, .currentstaff ul li, .nmcadalumni ul li {
+  position: relative;
+  padding-left: 2.5rem;
+  line-height: 1.6;
+  font-size: clamp(1.4rem, 2.5vw, 1.8rem);
+  margin-bottom: 1.5rem;
+  color: #A9B4CF;
+}
+
+.interests h2, .sponsored-projects h2, .global h2, .proposed h2 {
+  text-align: start;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  color: #ADC2F9;
+  margin-bottom: 2rem;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.interests, .sponsored-projects, .global, .proposed {
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.interests ul, .sponsored-projects ul, .global ul, .proposed ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.interests li, .sponsored-projects li, .global li, .proposed li {
+  position: relative;
+  padding-left: 2.5rem;
+  line-height: 1.6;
+  font-size: clamp(1.4rem, 2.5vw, 1.8rem);
+  margin-bottom: 1.5rem;
+  color: #E0E0E0;
+}
+
+.interests li::before, .sponsored-projects li::before, .global li::before, .proposed li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #ADC2F9;
+  font-size: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .research-parent {
+    margin-top: 6rem;
+    gap: 3rem;
+  }
+  .academic, .industrial, .interests, .sponsored-projects, .global, .proposed {
+    margin-bottom: 3rem;
+  }
+  .interests li, .sponsored-projects li, .global li, .proposed li {
+    padding-left: 2rem;
+  }
+}
+@media (max-width: 480px) {
+  .research-parent > h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+  }
+  .academic h2, .industrial h2,
+  .interests h2, .sponsored-projects h2, .global h2, .proposed h2 {
+    font-size: clamp(1.8rem, 4vw, 2.4rem);
+  }
+  .interests li, .sponsored-projects li, .global li, .proposed li {
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+  }
+}
+.bg-ellipse-rg1 {
+  position: absolute;
+  top: 12%;
+  left: -30%;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.bg-ellipse-rg2 {
+  position: absolute;
+  top: 30%;
+  width: 300%;
+  left: 10%;
+  height: auto;
+  z-index: -1;
+  transform: rotate(90deg);
+  pointer-events: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.news-parent {
+  max-width: 90vw;
+  margin: 10rem auto 2rem;
+  padding: 2rem;
+  border-radius: 8px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+@media (min-width: 768px) {
+  .news-parent {
+    max-width: 80vw;
+  }
+}
+@media (min-width: 1024px) {
+  .news-parent {
+    max-width: 60vw;
+  }
+}
+.news-parent > h1 {
+  font-size: clamp(2rem, 5vw, 5rem);
+  margin-bottom: 2rem;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.filters {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.filters select {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: 1px solid #3a3a3a;
+  background-color: #1d1d1d;
+  color: #f0f0f0;
+  font-size: clamp(1rem, 2vw, 2rem);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%23ffffff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px top 50%;
+  padding-right: 30px;
+}
+.filters select:hover, .filters select:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+.news-list {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.news-item {
+  background: linear-gradient(135deg, #19191e, #232333);
+  padding: 1rem 0.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  animation: fadeIn 0.5s ease forwards;
+  opacity: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.news-item:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.news-item .news-content {
+  padding: 1.5rem;
+}
+.news-item h3 {
+  margin-top: 0;
+  color: #4a90e2;
+  font-size: clamp(1.2rem, 3vw, 2rem);
+  margin-bottom: 0.5rem;
+  transition: color 0.3s ease;
+}
+.news-item h3:hover {
+  color: #76abe9;
+}
+.news-item p {
+  margin: 0.5rem 0;
+  color: #b0b5d5;
+  transition: color 0.3s ease;
+}
+.news-item .publication {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+}
+.news-item .date {
+  font-style: italic;
+  color: #a09db5;
+  font-size: clamp(0.8rem, 1.5vw, 1.4rem);
+}
+
+@media (max-width: 768px) {
+  .news-parent {
+    padding: 1rem;
+  }
+  .filters {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .filters select {
+    width: 100%;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .news-item, .news-parent > h1 {
+    animation: none;
+  }
+  .news-item:hover {
+    transform: none;
   }
 }/*# sourceMappingURL=main.css.map */
